@@ -55,10 +55,15 @@ public class CompareAllAIsPartiallyObservable {
     int MAX_DEPTH = 10;
     int RANDOMIZED_AB_REPEATS = 10;
 
-    int NB_RUNS = 1000;
+    int NB_RUNS;
+
+    if( args.length > 0 )
+      NB_RUNS = Integer.parseInt( args[0] );
+    else
+      NB_RUNS = 500;
     
     List<AI> bots = new LinkedList<AI>();
-    UnitTypeTable utt = new UnitTypeTable(UnitTypeTable.VERSION_ORIGINAL_FINETUNED); // Paramètre avancé
+    UnitTypeTable utt = new UnitTypeTable(UnitTypeTable.VERSION_ORIGINAL_FINETUNED); // Advanced parameters
     // UnitTypeTable utt = new UnitTypeTable();
 
     bots.add(new POAdaptiverush(utt, "src/ai/poadaptive/distributions.xml", "src/ai/poadaptive/distribution_woutb.xml", "src/ai/poadaptive/solver_cpp"));
@@ -75,7 +80,7 @@ public class CompareAllAIsPartiallyObservable {
     bots.add(new PORangedRush(utt));
     bots.add(new POWorkerRush(utt));
     bots.add(new POHeavyRush(utt));
-    // bots.add(new BS3_NaiveMCTS(utt));
+    bots.add(new BS3_NaiveMCTS(utt));
 
     // public BS3_NaiveMCTS(int available_time, int max_playouts, int lookahead, int max_depth,
     //         float e_l, float e_g, float e_0, AI policy, EvaluationFunction a_ef, boolean fensa) {

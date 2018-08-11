@@ -515,6 +515,63 @@ public class Experimenter {
                 }
             }
             System.out.println("");
-        } 
+        }
+
+
+	System.out.println("#####\nGLOBAL RESULTS");
+	System.out.println("Wins: ");
+        for (int ai1_idx = 0; ai1_idx < bots.size(); ai1_idx++) {
+            for (int ai2_idx = 0; ai2_idx < bots.size(); ai2_idx++) {
+                System.out.print(bottom_wins[ai1_idx][ai2_idx]+top_wins[ai1_idx][ai2_idx] + ", ");
+            }
+            System.out.println("");
+        }
+        System.out.println("Ties: ");
+        for (int ai1_idx = 0; ai1_idx < bots.size(); ai1_idx++) {
+            for (int ai2_idx = 0; ai2_idx < bots.size(); ai2_idx++) {
+                System.out.print(bottom_ties[ai1_idx][ai2_idx]+top_ties[ai1_idx][ai2_idx] + ", ");
+            }
+            System.out.println("");
+        }
+        System.out.println("Loses: ");
+        for (int ai1_idx = 0; ai1_idx < bots.size(); ai1_idx++) {
+            for (int ai2_idx = 0; ai2_idx < bots.size(); ai2_idx++) {
+                System.out.print(bottom_loses[ai1_idx][ai2_idx]+top_loses[ai1_idx][ai2_idx] + ", ");
+            }
+            System.out.println("");
+        }        
+        System.out.println("Win average time: ");
+        for (int ai1_idx = 0; ai1_idx < bots.size(); ai1_idx++) {
+            for (int ai2_idx = 0; ai2_idx < bots.size(); ai2_idx++) {
+                if (bottom_wins[ai1_idx][ai2_idx]>0) {
+		  System.out.print(((bottom_win_time[ai1_idx][ai2_idx]+top_win_time[ai1_idx][ai2_idx])/(bottom_wins[ai1_idx][ai2_idx]+top_wins[ai1_idx][ai2_idx])) + ", ");
+                } else {
+                    System.out.print("-, ");
+                }
+            }
+            System.out.println("");
+        }
+        System.out.println("Tie average time: ");
+        for (int ai1_idx = 0; ai1_idx < bots.size(); ai1_idx++) {
+            for (int ai2_idx = 0; ai2_idx < bots.size(); ai2_idx++) {
+                if (bottom_ties[ai1_idx][ai2_idx]>0) {
+		  System.out.print(((bottom_tie_time[ai1_idx][ai2_idx]+top_tie_time[ai1_idx][ai2_idx])/(bottom_ties[ai1_idx][ai2_idx]+top_ties[ai1_idx][ai2_idx])) + ", ");
+                } else {
+                    System.out.print("-, ");
+                }
+            }
+            System.out.println("");
+        }
+        System.out.println("Lose average time: ");
+        for (int ai1_idx = 0; ai1_idx < bots.size(); ai1_idx++) {
+            for (int ai2_idx = 0; ai2_idx < bots.size(); ai2_idx++) {
+                if (bottom_loses[ai1_idx][ai2_idx]>0) {
+		  System.out.print(((bottom_lose_time[ai1_idx][ai2_idx]+top_lose_time[ai1_idx][ai2_idx])/(bottom_loses[ai1_idx][ai2_idx]+top_loses[ai1_idx][ai2_idx])) + ", ");
+                } else {
+                    System.out.print("-, ");
+                }
+            }
+            System.out.println("");
+        }
     }
 }
