@@ -35,6 +35,7 @@ import java.io.PrintStream;
 import java.util.LinkedList;
 import java.util.List;
 
+import rts.GameState;
 import rts.PhysicalGameState;
 import rts.units.UnitTypeTable;
 import ai.core.InterruptibleAI;
@@ -56,16 +57,34 @@ public class CompareAllAIsPartiallyObservable {
     int RANDOMIZED_AB_REPEATS = 10;
 
     int NB_RUNS;
-
+    String path;
+    
     if( args.length > 0 )
+    {
       NB_RUNS = Integer.parseInt( args[0] );
+      path = args[1];
+    }
     else
+    {
       NB_RUNS = 500;
+      path = "/home/flo/microrts_results";
+    }
     
     List<AI> bots = new LinkedList<AI>();
     UnitTypeTable utt = new UnitTypeTable(UnitTypeTable.VERSION_ORIGINAL_FINETUNED); // Advanced parameters
     // UnitTypeTable utt = new UnitTypeTable();
 
+
+    // PhysicalGameState pgs = PhysicalGameState.load("maps/8x8/basesWorkers8x8A.xml", utt);
+    PhysicalGameState pgs = PhysicalGameState.load("maps/16x16/basesWorkers16x16A.xml", utt);
+    // PhysicalGameState pgs = PhysicalGameState.load("maps/BWDistantResources32x32.xml", utt);
+    // PhysicalGameState pgs = PhysicalGameState.load("maps/BroodWar/(4)BloodBath.scmB.xml", utt);
+    // PhysicalGameState pgs = PhysicalGameState.load("maps/8x8/FourBasesWorkers8x8.xml", utt);
+    // PhysicalGameState pgs = PhysicalGameState.load("maps/16x16/TwoBasesBarracks16x16.xml", utt);
+    // PhysicalGameState pgs = PhysicalGameState.load("maps/NoWhereToRun9x8.xml", utt);
+    // PhysicalGameState pgs = PhysicalGameState.load("maps/DoubleGame24x24.xml", utt);
+    GameState gs = new GameState(pgs, utt);
+    
     bots.add(new POAdaptiverush(utt, "src/ai/poadaptive/distributions.xml", "src/ai/poadaptive/distribution_woutb.xml", "src/ai/poadaptive/solver_cpp"));
     // bots.add(new RandomPOAdaptiverush(utt, "src/ai/poadaptive/distributions.xml", "src/ai/poadaptive/distribution_woutb.xml", "src/ai/poadaptive/solver_cpp"));
         
@@ -114,7 +133,10 @@ public class CompareAllAIsPartiallyObservable {
     if (CONTINUING) {
       // Find out which of the bots can be used in "continuing" mode:
       List<AI> bots2 = new LinkedList<>();
-      for(AI bot:bots) {
+      for(AI bot : bots) {
+	if (bot instanceof BS3_NaiveMCTS) {
+	  bot.preGameAnalysis(gs, 100);
+	}
 	if (bot instanceof AIWithComputationBudget) {
 	  if (bot instanceof InterruptibleAI) {
 	    bots2.add(new ContinuingAI(bot));
@@ -128,8 +150,8 @@ public class CompareAllAIsPartiallyObservable {
       bots = bots2;
     }        
         
-    PrintStream out1 = new PrintStream(new File("/home/flo/results_pmois5_up.txt"));
-    PrintStream out2 = new PrintStream(new File("/home/flo/results_pmois5_down.txt"));
+    PrintStream out1 = new PrintStream(new File( path + "_up.txt"));
+    PrintStream out2 = new PrintStream(new File( path + "_down.txt"));
     //PrintStream out2 = new PrintStream(new File("results-PO_bottomright.txt"));
         
     // Separate the matchs by map:
@@ -147,7 +169,9 @@ public class CompareAllAIsPartiallyObservable {
 
       
     maps.clear();
-    maps.add(PhysicalGameState.load("maps/16x16/basesWorkers16x16.xml",utt));
+    // maps.add(PhysicalGameState.load("maps/16x16/basesWorkers16x16.xml",utt));
+    maps.add( pgs );
+    
     Experimenter.runExperiments(bots, maps, utt, NB_RUNS, 4000, 300, false, out1, out2, 0, true, true, false, "");
 
 

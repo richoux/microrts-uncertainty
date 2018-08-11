@@ -38,29 +38,37 @@ import util.XMLWriter;
 public class POGameVisualSimulationTest {
     public static void main(String args[]) throws Exception {
         UnitTypeTable utt = new UnitTypeTable(UnitTypeTable.VERSION_ORIGINAL_FINETUNED);
-        PhysicalGameState pgs = PhysicalGameState.load("maps/16x16/basesWorkers16x16.xml", utt);
-//        PhysicalGameState pgs = MapGenerator.basesWorkers8x8Obstacle();
+
+	// PhysicalGameState pgs = PhysicalGameState.load("maps/8x8/basesWorkers8x8A.xml", utt);
+	PhysicalGameState pgs = PhysicalGameState.load("maps/16x16/basesWorkers16x16A.xml", utt);
+	// PhysicalGameState pgs = PhysicalGameState.load("maps/BWDistantResources32x32.xml", utt);
+	// PhysicalGameState pgs = PhysicalGameState.load("maps/BroodWar/(4)BloodBath.scmB.xml", utt);
+	// PhysicalGameState pgs = PhysicalGameState.load("maps/8x8/FourBasesWorkers8x8.xml", utt);
+	// PhysicalGameState pgs = PhysicalGameState.load("maps/16x16/TwoBasesBarracks16x16.xml", utt);
+	// PhysicalGameState pgs = PhysicalGameState.load("maps/NoWhereToRun9x8.xml", utt);
+	// PhysicalGameState pgs = PhysicalGameState.load("maps/DoubleGame24x24.xml", utt);
 
         GameState gs = new GameState(pgs, utt);
         int MAXCYCLES = 5000;
         int PERIOD = 20;
         boolean gameover = false;
-//        AI ai1 = new RandomAI();
-        //   AI ai1 = new POWorkerRush(utt, new BFSPathFinding());
-	// AI ai1 = new POWorkerRush(utt, new BFSPathFinding());
-        // AI ai2 = new POLightRush(utt, new BFSPathFinding());
-        AI ai2 = new POHeavyRush(utt, new BFSPathFinding());
-    //    AI ai2 = new PORangedRush(utt, new BFSPathFinding());
-//        AI ai1 = new ContinuingNaiveMC(PERIOD, 200, 0.33f, 0.2f, new RandomBiasedAI(), new SimpleEvaluationFunction());
-        // AI ai1 = new POAdaptiverush(utt, "src/ai/poadaptive/distributions.xml", "src/ai/poadaptive/solver_cpp");
 
 	AI ai1 = new POAdaptiverush(utt, "src/ai/poadaptive/distributions.xml", "src/ai/poadaptive/distribution_woutb.xml", "src/ai/poadaptive/solver_cpp");
+        // AI ai1 = new POAdaptiverush(utt, "src/ai/poadaptive/distributions.xml", "src/ai/poadaptive/solver_cpp");
 	// AI ai1 = new RandomPOAdaptiverush(utt, "src/ai/poadaptive/distributions.xml", "src/ai/poadaptive/distribution_woutb.xml", "src/ai/poadaptive/solver_cpp");
 
+
+	// AI ai2 = new RandomAI();
+        // AI ai2 = new POWorkerRush(utt, new BFSPathFinding());
+        // AI ai2 = new POLightRush(utt, new BFSPathFinding());
+        // AI ai2 = new POHeavyRush(utt, new BFSPathFinding());
+	// AI ai2 = new PORangedRush(utt, new BFSPathFinding());
+	// AI ai2 = new ContinuingNaiveMC(PERIOD, 200, 0.33f, 0.2f, new RandomBiasedAI(), new SimpleEvaluationFunction());
         // AI ai2 = new RandomBiasedAI();
-        // AI ai2 = new BS3_NaiveMCTS(utt);
-        // ai2.preGameAnalysis(gs, 100);
-    //    AI ai2 = new LightRush();
+	// AI ai2 = new LightRush();
+        AI ai2 = new BS3_NaiveMCTS(utt);
+        ai2.preGameAnalysis(gs, 100);
+
         
         // XMLWriter xml = new XMLWriter(new OutputStreamWriter(System.out));
         // pgs.toxml(xml);
