@@ -1,0 +1,6 @@
+8x8 maps: 3000
+16x16 maps: 4000
+24x24 maps: 5000
+32x32 maps: 6000
+64x64 maps: 8000 (BloodBath is 64x64)
+> 64x64 maps: 12000

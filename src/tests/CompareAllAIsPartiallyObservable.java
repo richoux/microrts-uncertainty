@@ -57,17 +57,20 @@ public class CompareAllAIsPartiallyObservable {
     int RANDOMIZED_AB_REPEATS = 10;
 
     int NB_RUNS;
+    int TIMEOUT;
     String path;
     
     if( args.length > 0 )
     {
       NB_RUNS = Integer.parseInt( args[0] );
       path = args[1];
+      TIMEOUT = Integer.parseInt( args[2] );
     }
     else
     {
       NB_RUNS = 500;
       path = "/home/flo/microrts_results";
+      TIMEOUT = 4000;
     }
     
     List<AI> bots = new LinkedList<AI>();
@@ -172,7 +175,7 @@ public class CompareAllAIsPartiallyObservable {
     // maps.add(PhysicalGameState.load("maps/16x16/basesWorkers16x16.xml",utt));
     maps.add( pgs );
     
-    Experimenter.runExperiments(bots, maps, utt, NB_RUNS, 4000, 300, false, out1, out2, 0, true, true, false, "");
+    Experimenter.runExperiments(bots, maps, utt, NB_RUNS, TIMEOUT, 300, false, out1, out2, 0, true, true, false, "");
 
 
     //////////////////////////////////////////////////
@@ -212,7 +215,7 @@ public class CompareAllAIsPartiallyObservable {
     // // Separate the matchs by map:
     // maps.clear();
     // maps.add(PhysicalGameState.load("maps/16x16/basesWorkers16x16.xml",utt));
-    // Experimenter.runExperiments(bots, maps, utt, NB_RUNS, 4000, 300, false, out1, out2, 0, true, true, false, "");
+    // Experimenter.runExperiments(bots, maps, utt, NB_RUNS, TIMEOUT, 300, false, out1, out2, 0, true, true, false, "");
   }
 }
 		      

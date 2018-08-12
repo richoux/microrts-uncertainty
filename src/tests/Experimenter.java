@@ -108,6 +108,8 @@ public class Experimenter {
 
         PrintStream out = out1;
 
+	System.out.println("Timeout: " + max_cycles);
+
         for(AI bot:bots) bots2.add(bot.clone());
         
         for (int ai1_idx = 0; ai1_idx < bots.size(); ai1_idx++) 
