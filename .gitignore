@@ -3,4 +3,6 @@
 /.classpath
 /.project
 src/ai/poadaptive/data_solver
+src/ai/poadaptive/solver_cpp
+*.o
 *~
