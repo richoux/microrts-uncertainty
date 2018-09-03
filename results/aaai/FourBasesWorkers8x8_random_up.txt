@@ -1,0 +1,1042 @@
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POLightRush(AStarPathFinding))
+Winner: 0  in 525 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POLightRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POLightRush(AStarPathFinding))
+Winner: 1  in 858 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POLightRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POLightRush(AStarPathFinding))
+Winner: 1  in 803 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POLightRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POLightRush(AStarPathFinding))
+Winner: 0  in 710 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POLightRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POLightRush(AStarPathFinding))
+Winner: 1  in 1240 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POLightRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POLightRush(AStarPathFinding))
+Winner: 1  in 635 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POLightRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POLightRush(AStarPathFinding))
+Winner: 0  in 795 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POLightRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POLightRush(AStarPathFinding))
+Winner: 0  in 747 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POLightRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POLightRush(AStarPathFinding))
+Winner: 0  in 525 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POLightRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POLightRush(AStarPathFinding))
+Winner: 1  in 595 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POLightRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POLightRush(AStarPathFinding))
+Winner: 0  in 555 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POLightRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POLightRush(AStarPathFinding))
+Winner: 1  in 604 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POLightRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POLightRush(AStarPathFinding))
+Winner: 0  in 525 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POLightRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POLightRush(AStarPathFinding))
+Winner: 0  in 525 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POLightRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POLightRush(AStarPathFinding))
+Winner: 0  in 525 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POLightRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POLightRush(AStarPathFinding))
+Winner: 0  in 560 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POLightRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POLightRush(AStarPathFinding))
+Winner: 1  in 678 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POLightRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POLightRush(AStarPathFinding))
+Winner: 1  in 783 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POLightRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POLightRush(AStarPathFinding))
+Winner: 0  in 657 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POLightRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POLightRush(AStarPathFinding))
+Winner: 0  in 670 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POLightRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POLightRush(AStarPathFinding))
+Winner: 0  in 525 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POLightRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POLightRush(AStarPathFinding))
+Winner: 0  in 525 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POLightRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POLightRush(AStarPathFinding))
+Winner: 0  in 525 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POLightRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POLightRush(AStarPathFinding))
+Winner: 0  in 525 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POLightRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POLightRush(AStarPathFinding))
+Winner: 0  in 560 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POLightRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POLightRush(AStarPathFinding))
+Winner: 0  in 657 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POLightRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POLightRush(AStarPathFinding))
+Winner: 1  in 1010 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POLightRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POLightRush(AStarPathFinding))
+Winner: 1  in 477 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POLightRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POLightRush(AStarPathFinding))
+Winner: 0  in 922 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POLightRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POLightRush(AStarPathFinding))
+Winner: 0  in 720 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POLightRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POLightRush(AStarPathFinding))
+Winner: 0  in 525 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POLightRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POLightRush(AStarPathFinding))
+Winner: 0  in 670 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POLightRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POLightRush(AStarPathFinding))
+Winner: 0  in 525 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POLightRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POLightRush(AStarPathFinding))
+Winner: 1  in 642 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POLightRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POLightRush(AStarPathFinding))
+Winner: 1  in 770 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POLightRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POLightRush(AStarPathFinding))
+Winner: 0  in 785 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POLightRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POLightRush(AStarPathFinding))
+Winner: 1  in 595 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POLightRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POLightRush(AStarPathFinding))
+Winner: 0  in 565 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POLightRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POLightRush(AStarPathFinding))
+Winner: 1  in 1024 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POLightRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POLightRush(AStarPathFinding))
+Winner: 0  in 670 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POLightRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POLightRush(AStarPathFinding))
+Winner: 1  in 970 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POLightRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POLightRush(AStarPathFinding))
+Winner: 0  in 525 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POLightRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POLightRush(AStarPathFinding))
+Winner: 0  in 670 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POLightRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POLightRush(AStarPathFinding))
+Winner: 1  in 635 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POLightRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POLightRush(AStarPathFinding))
+Winner: 0  in 655 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POLightRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POLightRush(AStarPathFinding))
+Winner: 1  in 477 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POLightRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POLightRush(AStarPathFinding))
+Winner: 1  in 944 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POLightRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POLightRush(AStarPathFinding))
+Winner: 0  in 750 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POLightRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POLightRush(AStarPathFinding))
+Winner: 1  in 723 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POLightRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POLightRush(AStarPathFinding))
+Winner: 0  in 565 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POLightRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(PORangedRush(AStarPathFinding))
+Winner: 1  in 750 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(PORangedRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(PORangedRush(AStarPathFinding))
+Winner: 0  in 717 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(PORangedRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(PORangedRush(AStarPathFinding))
+Winner: 0  in 640 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(PORangedRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(PORangedRush(AStarPathFinding))
+Winner: 0  in 607 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(PORangedRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(PORangedRush(AStarPathFinding))
+Winner: 0  in 1195 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(PORangedRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(PORangedRush(AStarPathFinding))
+Winner: 0  in 719 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(PORangedRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(PORangedRush(AStarPathFinding))
+Winner: 0  in 540 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(PORangedRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(PORangedRush(AStarPathFinding))
+Winner: 1  in 665 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(PORangedRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(PORangedRush(AStarPathFinding))
+Winner: 0  in 825 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(PORangedRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(PORangedRush(AStarPathFinding))
+Winner: 0  in 790 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(PORangedRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(PORangedRush(AStarPathFinding))
+Winner: 0  in 1190 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(PORangedRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(PORangedRush(AStarPathFinding))
+Winner: 0  in 855 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(PORangedRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(PORangedRush(AStarPathFinding))
+Winner: 1  in 780 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(PORangedRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(PORangedRush(AStarPathFinding))
+Winner: 0  in 1012 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(PORangedRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(PORangedRush(AStarPathFinding))
+Winner: 0  in 640 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(PORangedRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(PORangedRush(AStarPathFinding))
+Winner: 1  in 540 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(PORangedRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(PORangedRush(AStarPathFinding))
+Winner: 1  in 755 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(PORangedRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(PORangedRush(AStarPathFinding))
+Winner: 0  in 680 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(PORangedRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(PORangedRush(AStarPathFinding))
+Winner: 0  in 750 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(PORangedRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(PORangedRush(AStarPathFinding))
+Winner: 0  in 540 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(PORangedRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(PORangedRush(AStarPathFinding))
+Winner: 1  in 575 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(PORangedRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(PORangedRush(AStarPathFinding))
+Winner: 0  in 1060 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(PORangedRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(PORangedRush(AStarPathFinding))
+Winner: 0  in 658 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(PORangedRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(PORangedRush(AStarPathFinding))
+Winner: 0  in 625 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(PORangedRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(PORangedRush(AStarPathFinding))
+Winner: 1  in 855 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(PORangedRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(PORangedRush(AStarPathFinding))
+Winner: 1  in 885 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(PORangedRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(PORangedRush(AStarPathFinding))
+Winner: 0  in 904 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(PORangedRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(PORangedRush(AStarPathFinding))
+Winner: 0  in 555 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(PORangedRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(PORangedRush(AStarPathFinding))
+Winner: 1  in 540 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(PORangedRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(PORangedRush(AStarPathFinding))
+Winner: 0  in 690 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(PORangedRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(PORangedRush(AStarPathFinding))
+Winner: 1  in 575 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(PORangedRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(PORangedRush(AStarPathFinding))
+Winner: 0  in 926 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(PORangedRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(PORangedRush(AStarPathFinding))
+Winner: 0  in 983 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(PORangedRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(PORangedRush(AStarPathFinding))
+Winner: 0  in 658 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(PORangedRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(PORangedRush(AStarPathFinding))
+Winner: 1  in 975 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(PORangedRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(PORangedRush(AStarPathFinding))
+Winner: 0  in 897 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(PORangedRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(PORangedRush(AStarPathFinding))
+Winner: 1  in 575 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(PORangedRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(PORangedRush(AStarPathFinding))
+Winner: 0  in 730 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(PORangedRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(PORangedRush(AStarPathFinding))
+Winner: 1  in 795 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(PORangedRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(PORangedRush(AStarPathFinding))
+Winner: 0  in 767 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(PORangedRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(PORangedRush(AStarPathFinding))
+Winner: 1  in 780 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(PORangedRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(PORangedRush(AStarPathFinding))
+Winner: 0  in 625 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(PORangedRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(PORangedRush(AStarPathFinding))
+Winner: 0  in 920 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(PORangedRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(PORangedRush(AStarPathFinding))
+Winner: 0  in 1032 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(PORangedRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(PORangedRush(AStarPathFinding))
+Winner: 0  in 690 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(PORangedRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(PORangedRush(AStarPathFinding))
+Winner: 1  in 855 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(PORangedRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(PORangedRush(AStarPathFinding))
+Winner: 0  in 625 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(PORangedRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(PORangedRush(AStarPathFinding))
+Winner: 1  in 805 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(PORangedRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(PORangedRush(AStarPathFinding))
+Winner: 0  in 645 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(PORangedRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(PORangedRush(AStarPathFinding))
+Winner: 0  in 877 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(PORangedRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POWorkerRush(AStarPathFinding))
+Winner: 1  in 150 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POWorkerRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POWorkerRush(AStarPathFinding))
+Winner: 1  in 150 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POWorkerRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POWorkerRush(AStarPathFinding))
+Winner: 1  in 150 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POWorkerRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POWorkerRush(AStarPathFinding))
+Winner: 1  in 150 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POWorkerRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POWorkerRush(AStarPathFinding))
+Winner: 1  in 150 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POWorkerRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POWorkerRush(AStarPathFinding))
+Winner: 1  in 150 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POWorkerRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POWorkerRush(AStarPathFinding))
+Winner: 1  in 150 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POWorkerRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POWorkerRush(AStarPathFinding))
+Winner: 1  in 150 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POWorkerRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POWorkerRush(AStarPathFinding))
+Winner: 1  in 150 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POWorkerRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POWorkerRush(AStarPathFinding))
+Winner: 1  in 150 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POWorkerRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POWorkerRush(AStarPathFinding))
+Winner: 1  in 150 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POWorkerRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POWorkerRush(AStarPathFinding))
+Winner: 1  in 150 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POWorkerRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POWorkerRush(AStarPathFinding))
+Winner: 1  in 150 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POWorkerRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POWorkerRush(AStarPathFinding))
+Winner: 1  in 150 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POWorkerRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POWorkerRush(AStarPathFinding))
+Winner: 1  in 150 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POWorkerRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POWorkerRush(AStarPathFinding))
+Winner: 1  in 150 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POWorkerRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POWorkerRush(AStarPathFinding))
+Winner: 1  in 150 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POWorkerRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POWorkerRush(AStarPathFinding))
+Winner: 1  in 150 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POWorkerRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POWorkerRush(AStarPathFinding))
+Winner: 1  in 150 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POWorkerRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POWorkerRush(AStarPathFinding))
+Winner: 1  in 150 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POWorkerRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POWorkerRush(AStarPathFinding))
+Winner: 1  in 150 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POWorkerRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POWorkerRush(AStarPathFinding))
+Winner: 1  in 150 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POWorkerRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POWorkerRush(AStarPathFinding))
+Winner: 1  in 150 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POWorkerRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POWorkerRush(AStarPathFinding))
+Winner: 1  in 150 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POWorkerRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POWorkerRush(AStarPathFinding))
+Winner: 1  in 150 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POWorkerRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POWorkerRush(AStarPathFinding))
+Winner: 1  in 150 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POWorkerRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POWorkerRush(AStarPathFinding))
+Winner: 1  in 150 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POWorkerRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POWorkerRush(AStarPathFinding))
+Winner: 1  in 150 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POWorkerRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POWorkerRush(AStarPathFinding))
+Winner: 1  in 150 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POWorkerRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POWorkerRush(AStarPathFinding))
+Winner: 1  in 150 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POWorkerRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POWorkerRush(AStarPathFinding))
+Winner: 1  in 150 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POWorkerRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POWorkerRush(AStarPathFinding))
+Winner: 1  in 150 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POWorkerRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POWorkerRush(AStarPathFinding))
+Winner: 1  in 150 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POWorkerRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POWorkerRush(AStarPathFinding))
+Winner: 1  in 150 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POWorkerRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POWorkerRush(AStarPathFinding))
+Winner: 1  in 150 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POWorkerRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POWorkerRush(AStarPathFinding))
+Winner: 1  in 150 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POWorkerRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POWorkerRush(AStarPathFinding))
+Winner: 1  in 150 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POWorkerRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POWorkerRush(AStarPathFinding))
+Winner: 1  in 150 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POWorkerRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POWorkerRush(AStarPathFinding))
+Winner: 1  in 150 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POWorkerRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POWorkerRush(AStarPathFinding))
+Winner: 1  in 150 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POWorkerRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POWorkerRush(AStarPathFinding))
+Winner: 1  in 150 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POWorkerRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POWorkerRush(AStarPathFinding))
+Winner: 1  in 150 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POWorkerRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POWorkerRush(AStarPathFinding))
+Winner: 1  in 150 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POWorkerRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POWorkerRush(AStarPathFinding))
+Winner: 1  in 150 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POWorkerRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POWorkerRush(AStarPathFinding))
+Winner: 1  in 150 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POWorkerRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POWorkerRush(AStarPathFinding))
+Winner: 1  in 150 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POWorkerRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POWorkerRush(AStarPathFinding))
+Winner: 1  in 150 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POWorkerRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POWorkerRush(AStarPathFinding))
+Winner: 1  in 150 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POWorkerRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POWorkerRush(AStarPathFinding))
+Winner: 1  in 150 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POWorkerRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POWorkerRush(AStarPathFinding))
+Winner: 1  in 150 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POWorkerRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POHeavyRush(AStarPathFinding))
+Winner: -1  in 3000 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POHeavyRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POHeavyRush(AStarPathFinding))
+Winner: 0  in 605 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POHeavyRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POHeavyRush(AStarPathFinding))
+Winner: 0  in 810 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POHeavyRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POHeavyRush(AStarPathFinding))
+Winner: 0  in 525 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POHeavyRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POHeavyRush(AStarPathFinding))
+Winner: 0  in 550 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POHeavyRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POHeavyRush(AStarPathFinding))
+Winner: 0  in 555 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POHeavyRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POHeavyRush(AStarPathFinding))
+Winner: 1  in 560 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POHeavyRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POHeavyRush(AStarPathFinding))
+Winner: 0  in 605 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POHeavyRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POHeavyRush(AStarPathFinding))
+Winner: 0  in 635 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POHeavyRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POHeavyRush(AStarPathFinding))
+Winner: 1  in 560 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POHeavyRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POHeavyRush(AStarPathFinding))
+Winner: 0  in 785 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POHeavyRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POHeavyRush(AStarPathFinding))
+Winner: 0  in 605 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POHeavyRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POHeavyRush(AStarPathFinding))
+Winner: 0  in 630 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POHeavyRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POHeavyRush(AStarPathFinding))
+Winner: 1  in 745 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POHeavyRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POHeavyRush(AStarPathFinding))
+Winner: 0  in 725 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POHeavyRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POHeavyRush(AStarPathFinding))
+Winner: 0  in 605 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POHeavyRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POHeavyRush(AStarPathFinding))
+Winner: 0  in 536 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POHeavyRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POHeavyRush(AStarPathFinding))
+Winner: 0  in 580 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POHeavyRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POHeavyRush(AStarPathFinding))
+Winner: 0  in 580 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POHeavyRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POHeavyRush(AStarPathFinding))
+Winner: 0  in 590 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POHeavyRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POHeavyRush(AStarPathFinding))
+Winner: 0  in 635 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POHeavyRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POHeavyRush(AStarPathFinding))
+Winner: 0  in 525 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POHeavyRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POHeavyRush(AStarPathFinding))
+Winner: 1  in 705 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POHeavyRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POHeavyRush(AStarPathFinding))
+Winner: 0  in 635 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POHeavyRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POHeavyRush(AStarPathFinding))
+Winner: 0  in 690 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POHeavyRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POHeavyRush(AStarPathFinding))
+Winner: 0  in 555 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POHeavyRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POHeavyRush(AStarPathFinding))
+Winner: 0  in 645 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POHeavyRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POHeavyRush(AStarPathFinding))
+Winner: 0  in 550 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POHeavyRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POHeavyRush(AStarPathFinding))
+Winner: 1  in 695 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POHeavyRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POHeavyRush(AStarPathFinding))
+Winner: 1  in 560 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POHeavyRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POHeavyRush(AStarPathFinding))
+Winner: 1  in 710 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POHeavyRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POHeavyRush(AStarPathFinding))
+Winner: 0  in 1045 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POHeavyRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POHeavyRush(AStarPathFinding))
+Winner: 0  in 525 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POHeavyRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POHeavyRush(AStarPathFinding))
+Winner: 0  in 555 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POHeavyRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POHeavyRush(AStarPathFinding))
+Winner: 0  in 555 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POHeavyRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POHeavyRush(AStarPathFinding))
+Winner: 0  in 780 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POHeavyRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POHeavyRush(AStarPathFinding))
+Winner: 0  in 645 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POHeavyRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POHeavyRush(AStarPathFinding))
+Winner: 0  in 605 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POHeavyRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POHeavyRush(AStarPathFinding))
+Winner: 0  in 525 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POHeavyRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POHeavyRush(AStarPathFinding))
+Winner: 0  in 590 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POHeavyRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POHeavyRush(AStarPathFinding))
+Winner: 0  in 590 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POHeavyRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POHeavyRush(AStarPathFinding))
+Winner: 0  in 715 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POHeavyRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POHeavyRush(AStarPathFinding))
+Winner: 0  in 670 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POHeavyRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POHeavyRush(AStarPathFinding))
+Winner: 0  in 645 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POHeavyRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POHeavyRush(AStarPathFinding))
+Winner: 0  in 780 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POHeavyRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POHeavyRush(AStarPathFinding))
+Winner: 0  in 684 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POHeavyRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POHeavyRush(AStarPathFinding))
+Winner: 0  in 625 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POHeavyRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POHeavyRush(AStarPathFinding))
+Winner: 0  in 635 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POHeavyRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POHeavyRush(AStarPathFinding))
+Winner: 0  in 605 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POHeavyRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs PseudoContinuingAI(POHeavyRush(AStarPathFinding))
+Winner: 0  in 590 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+PseudoContinuingAI(POHeavyRush(AStarPathFinding)) : null
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3))
+Winner: 1  in 155 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3)) : Total runs: 90288, runs per action: 3344.0, runs per cycle: 597.9338, average time per cycle: 100.0, max branching factor: 17694720
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3))
+Winner: 1  in 180 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3)) : Total runs: 120399, runs per action: 3883.8386, runs per cycle: 684.0852, average time per cycle: 100.22159, max branching factor: 38400000
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3))
+Winner: 1  in 190 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3)) : Total runs: 147860, runs per action: 4348.8237, runs per cycle: 794.9462, average time per cycle: 100.17742, max branching factor: 1228800
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3))
+Winner: 1  in 180 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3)) : Total runs: 180822, runs per action: 5650.6875, runs per cycle: 1027.3977, average time per cycle: 100.02273, max branching factor: 55296000
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3))
+Winner: 1  in 195 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3)) : Total runs: 121346, runs per action: 3792.0625, runs per cycle: 635.3194, average time per cycle: 100.09424, max branching factor: 1492992000
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3))
+Winner: 1  in 175 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3)) : Total runs: 119840, runs per action: 4280.0, runs per cycle: 700.8187, average time per cycle: 100.0, max branching factor: 2654208000
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3))
+Winner: 1  in 165 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3)) : Total runs: 122264, runs per action: 4366.5713, runs per cycle: 759.40375, average time per cycle: 100.16149, max branching factor: 41990400
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3))
+Winner: 1  in 235 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3)) : Total runs: 140052, runs per action: 3415.9023, runs per cycle: 606.2857, average time per cycle: 100.09956, max branching factor: 300000000
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3))
+Winner: 1  in 180 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3)) : Total runs: 145433, runs per action: 4847.7666, runs per cycle: 826.32385, average time per cycle: 100.068184, max branching factor: 86400000
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3))
+Winner: 1  in 180 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3)) : Total runs: 113381, runs per action: 3909.6897, runs per cycle: 644.2102, average time per cycle: 100.0, max branching factor: 368640000
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3))
+Winner: 1  in 185 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3)) : Total runs: 116378, runs per action: 3754.1292, runs per cycle: 642.97235, average time per cycle: 100.11602, max branching factor: 829440000
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3))
+Winner: 1  in 170 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3)) : Total runs: 129718, runs per action: 4323.933, runs per cycle: 781.4337, average time per cycle: 100.150604, max branching factor: 92160000
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3))
+Winner: 1  in 170 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3)) : Total runs: 180853, runs per action: 6028.433, runs per cycle: 1089.476, average time per cycle: 100.10241, max branching factor: 7962624
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3))
+Winner: 1  in 190 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3)) : Total runs: 163148, runs per action: 4798.4707, runs per cycle: 877.1398, average time per cycle: 100.043015, max branching factor: 30720000
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3))
+Winner: 1  in 215 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3)) : Total runs: 124294, runs per action: 3270.8948, runs per cycle: 589.0711, average time per cycle: 100.07583, max branching factor: 437400000
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3))
+Winner: 1  in 175 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3)) : Total runs: 135857, runs per action: 4382.484, runs per cycle: 794.48535, average time per cycle: 100.052635, max branching factor: 11520000
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3))
+Winner: 1  in 170 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3)) : Total runs: 129201, runs per action: 4455.207, runs per cycle: 778.3193, average time per cycle: 100.10844, max branching factor: 18432000
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3))
+Winner: 1  in 165 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3)) : Total runs: 130789, runs per action: 4671.0356, runs per cycle: 812.35406, average time per cycle: 100.09317, max branching factor: 10368000
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3))
+Winner: 1  in 180 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3)) : Total runs: 132343, runs per action: 4563.552, runs per cycle: 751.94885, average time per cycle: 100.045456, max branching factor: 1080000000
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3))
+Winner: 1  in 160 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3)) : Total runs: 148270, runs per action: 5295.357, runs per cycle: 950.4487, average time per cycle: 100.160255, max branching factor: 23040000
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3))
+Winner: 1  in 180 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3)) : Total runs: 120013, runs per action: 3750.4062, runs per cycle: 681.892, average time per cycle: 100.22727, max branching factor: 99532800
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3))
+Winner: 1  in 195 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3)) : Total runs: 136933, runs per action: 4279.1562, runs per cycle: 716.9267, average time per cycle: 100.13612, max branching factor: 138240000
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3))
+Winner: 1  in 180 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3)) : Total runs: 182459, runs per action: 5701.8438, runs per cycle: 1036.6989, average time per cycle: 100.03409, max branching factor: 69120000
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3))
+Winner: 1  in 170 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3)) : Total runs: 126981, runs per action: 4232.7, runs per cycle: 764.9458, average time per cycle: 100.06024, max branching factor: 47185920
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3))
+Winner: 1  in 160 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3)) : Total runs: 112547, runs per action: 4019.5356, runs per cycle: 721.45514, average time per cycle: 100.166664, max branching factor: 38880000
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3))
+Winner: 1  in 165 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3)) : Total runs: 102912, runs per action: 3811.5557, runs per cycle: 639.20496, average time per cycle: 100.04969, max branching factor: 589824000
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3))
+Winner: 1  in 160 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3)) : Total runs: 130670, runs per action: 4839.6294, runs per cycle: 837.62823, average time per cycle: 100.01923, max branching factor: 3686400
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3))
+Winner: 1  in 200 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3)) : Total runs: 123568, runs per action: 3432.4443, runs per cycle: 630.449, average time per cycle: 100.0, max branching factor: 6220800
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3))
+Winner: 1  in 165 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3)) : Total runs: 113393, runs per action: 3910.1035, runs per cycle: 704.3043, average time per cycle: 100.18012, max branching factor: 82944000
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3))
+Winner: 1  in 170 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3)) : Total runs: 164662, runs per action: 5488.7334, runs per cycle: 991.93976, average time per cycle: 100.084335, max branching factor: 17280000
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3))
+Winner: 1  in 175 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3)) : Total runs: 110508, runs per action: 3810.6206, runs per cycle: 646.2456, average time per cycle: 100.011696, max branching factor: 66355200
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3))
+Winner: 1  in 170 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3)) : Total runs: 189649, runs per action: 6773.1787, runs per cycle: 1142.4639, average time per cycle: 100.09036, max branching factor: 86400000
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3))
+Winner: 1  in 180 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3)) : Total runs: 170779, runs per action: 5509.0, runs per cycle: 970.3352, average time per cycle: 100.19886, max branching factor: 8294400
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3))
+Winner: 1  in 175 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3)) : Total runs: 124774, runs per action: 4024.9678, runs per cycle: 729.6725, average time per cycle: 100.02924, max branching factor: 14400000
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3))
+Winner: 1  in 195 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3)) : Total runs: 122231, runs per action: 3703.9697, runs per cycle: 639.9529, average time per cycle: 100.057594, max branching factor: 106168320
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3))
+Winner: 1  in 180 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3)) : Total runs: 104468, runs per action: 3369.9355, runs per cycle: 593.5682, average time per cycle: 100.017044, max branching factor: 44236800
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3))
+Winner: 1  in 215 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3)) : Total runs: 119193, runs per action: 3310.9167, runs per cycle: 564.89575, average time per cycle: 100.05687, max branching factor: 212336640
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3))
+Winner: 1  in 180 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3)) : Total runs: 115179, runs per action: 3839.3, runs per cycle: 654.42615, average time per cycle: 100.125, max branching factor: 31104000
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3))
+Winner: 1  in 220 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3)) : Total runs: 176192, runs per action: 4761.946, runs per cycle: 815.7037, average time per cycle: 100.15741, max branching factor: 216000000
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3))
+Winner: 1  in 190 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3)) : Total runs: 133155, runs per action: 3916.3235, runs per cycle: 715.8871, average time per cycle: 100.18279, max branching factor: 99532800
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3))
+Winner: 1  in 145 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3)) : Total runs: 98304, runs per action: 4096.0, runs per cycle: 697.19147, average time per cycle: 100.12766, max branching factor: 144000000
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3))
+Winner: 1  in 180 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3)) : Total runs: 133435, runs per action: 4447.8335, runs per cycle: 758.1534, average time per cycle: 100.02273, max branching factor: 59719680
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3))
+Winner: 1  in 160 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3)) : Total runs: 168265, runs per action: 6471.731, runs per cycle: 1078.6218, average time per cycle: 100.25, max branching factor: 26214400
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3))
+Winner: 1  in 160 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3)) : Total runs: 127844, runs per action: 4734.963, runs per cycle: 819.5128, average time per cycle: 100.333336, max branching factor: 97200000
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3))
+Winner: 1  in 185 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3)) : Total runs: 118441, runs per action: 3589.121, runs per cycle: 654.3702, average time per cycle: 100.01105, max branching factor: 1658880000
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3))
+Winner: 1  in 180 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3)) : Total runs: 135439, runs per action: 4232.4688, runs per cycle: 769.5398, average time per cycle: 100.193184, max branching factor: 1036800000
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3))
+Winner: 1  in 195 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3)) : Total runs: 142403, runs per action: 4068.6572, runs per cycle: 745.5654, average time per cycle: 100.089005, max branching factor: 13271040
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3))
+Winner: 1  in 150 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3)) : Total runs: 100758, runs per action: 3875.3076, runs per cycle: 690.1233, average time per cycle: 100.03425, max branching factor: 108000000
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3))
+Winner: 1  in 190 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3)) : Total runs: 159636, runs per action: 4988.625, runs per cycle: 858.25806, average time per cycle: 100.07527, max branching factor: 82944000
+MATCH UP: PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) vs ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3))
+Winner: 1  in 180 cycles
+PseudoContinuingAI(RandomPOAdaptiverush(AStarPathFinding)) : null
+ContinuingAI(BS3_NaiveMCTS(100, -1, 100,10,0.3, 1.0, 0.0, 1.0, 0.4, 1.0, RandomBiasedAI, SimpleSqrtEvaluationFunction3)) : Total runs: 145123, runs per action: 4681.387, runs per cycle: 824.5625, average time per cycle: 100.056816, max branching factor: 135000000
+Wins: 
+0, 31, 34, 0, 42, 0, 
+19, 0, 0, 0, 0, 0, 
+16, 0, 0, 0, 0, 0, 
+50, 0, 0, 0, 0, 0, 
+7, 0, 0, 0, 0, 0, 
+50, 0, 0, 0, 0, 0, 
+Ties: 
+0, 0, 0, 0, 1, 0, 
+0, 0, 0, 0, 0, 0, 
+0, 0, 0, 0, 0, 0, 
+0, 0, 0, 0, 0, 0, 
+1, 0, 0, 0, 0, 0, 
+0, 0, 0, 0, 0, 0, 
+Loses: 
+0, 19, 16, 50, 7, 50, 
+31, 0, 0, 0, 0, 0, 
+34, 0, 0, 0, 0, 0, 
+0, 0, 0, 0, 0, 0, 
+42, 0, 0, 0, 0, 0, 
+0, 0, 0, 0, 0, 0, 
+Win average time: 
+-, 618.8064516129032, 781.3823529411765, -, 631.4285714285714, -, 
+761.2105263157895, -, -, -, -, -, 
+731.5625, -, -, -, -, -, 
+150.0, -, -, -, -, -, 
+647.8571428571429, -, -, -, -, -, 
+179.3, -, -, -, -, -, 
+Tie average time: 
+-, -, -, -, 3000.0, -, 
+-, -, -, -, -, -, 
+-, -, -, -, -, -, 
+-, -, -, -, -, -, 
+3000.0, -, -, -, -, -, 
+-, -, -, -, -, -, 
+Lose average time: 
+-, 761.2105263157895, 731.5625, 150.0, 647.8571428571429, 179.3, 
+618.8064516129032, -, -, -, -, -, 
+781.3823529411765, -, -, -, -, -, 
+-, -, -, -, -, -, 
+631.4285714285714, -, -, -, -, -, 
+-, -, -, -, -, -, 
