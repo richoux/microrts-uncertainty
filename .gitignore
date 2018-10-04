@@ -4,3 +4,4 @@
 /.project
 src/ai/poadaptive/data_solver
 *~
+*.DS_Store
