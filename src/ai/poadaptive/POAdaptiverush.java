@@ -846,9 +846,9 @@ public class POAdaptiverush extends AbstractionLayerAI {
                 info[3] += tmp[3];
             }
             if(INFO){
-                System.out.println("Samples moy = " + info[0]/nbSamples+ " / " + info[1]/nbSamples+ " / " + info[2]/nbSamples+ " / "+info[3]/nbSamples);
-                System.out.println(" Unités player("+(playerHeavy+playerRanged+playerLight) +"+"+playerWorker+") : "+playerWorker+" / " +playerHeavy+ "/"+playerRanged+"/"+playerLight);
-                System.out.println(" Unités observed("+ (observedHeavy+observedRanged+observedLight)+"+"+observedWorker+") : "+observedWorker+" / " +observedHeavy+ "/"+observedRanged+"/"+observedLight);
+                System.out.println("Samples moy = W" + info[0]/nbSamples+ " / H" + info[1]/nbSamples+ " / R" + info[2]/nbSamples+ " / L"+info[3]/nbSamples);
+                System.out.println(" Units player(" + (playerHeavy+playerRanged+playerLight) + "+" + playerWorker + ") : W" + playerWorker + " / H" + playerHeavy+ " / R" + playerRanged + " / L" + playerLight);
+                System.out.println(" Units observed(" + (observedHeavy+observedRanged+observedLight) + "+" + observedWorker + ") : W" + observedWorker + " / H" + observedHeavy + " / R" + observedRanged + " / L" + observedLight);
             }
             // write parameter for solver in a file
             try {
@@ -866,7 +866,7 @@ public class POAdaptiverush extends AbstractionLayerAI {
                 }
                 writer.close();
             } catch(IOException e1) {
-                System.out.println("Excepeiotn in printer");
+                System.out.println("Exception in printer");
             }
 
             // get solutions
@@ -897,7 +897,7 @@ public class POAdaptiverush extends AbstractionLayerAI {
                 sol_ranged = Integer.parseInt(b.readLine());
                 sol_light = Integer.parseInt(b.readLine());
                 if(INFO)
-                    System.out.println("H:" + sol_heavy + " R" + sol_ranged + " L" + sol_light + "\n\n");
+                    System.out.println("H" + sol_heavy + " R" + sol_ranged + " L" + sol_light + "\n\n");
                 b.close();
             }
             catch(IOException e1) {
