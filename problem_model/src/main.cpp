@@ -85,11 +85,18 @@ int main(int argv, char *argc[])
 
     vector< shared_ptr<Constraint> > constraints = {ranged, heavy, light, cst_ressources};
 
+    /*
+     * identity => RDU becomes Expected Utility
+     * logistic => pessimistic behavior
+     * logit / flat (but prefer logit) => optimistic behavior
+     * inverse_logistic => insane optimistic behavior
+     */    
     const int LAMBDA = 5;
-    //auto phi_callback = neutral();
-    //auto phi_callback = logistic( LAMBDA );
+    //auto phi_callback = identity();
+    //auto phi_callback = flat();
+    auto phi_callback = logistic( LAMBDA );
     //auto phi_callback = inverse_logistic( LAMBDA );
-    auto phi_callback = logit( LAMBDA );
+    //auto phi_callback = logit( LAMBDA );
 
     cout << "phi(0.1) = " << phi_callback(0.1)
 	 << ", phi(0.5) = " << phi_callback(0.5)
@@ -100,15 +107,15 @@ int main(int argv, char *argc[])
 						      samples,
 						      phi_callback );
 
-    Solver solver_p( variables, constraints ,obj );
+    Solver solver_p( variables, constraints, obj );
     
     vector<int>solution(variables.size(), 0);
     double cost_p = 0.;
     // cout << "Solve ..." << "\n";
-    cout << solver_p.solve(cost_p, solution, 10000, 100000)<< " : "<< cost_p <<" / " <<obj->cost(variables) << "\n";
-    cout << solution[10] << solution[11]  << solution[9]<< "\n";
+    cout << solver_p.solve( cost_p, solution, 10000, 100000 ) << " : " << cost_p << " / " << obj->cost(variables) << "\n";
+    cout << solution[10] << solution[11]  << solution[9] << "\n";
     // cout << variables[10].get_value()  << variables[11].get_value()  << variables[9].get_value() << "\n";
-    cout << solution[10]-ph << "\n" << solution[11]-pr << "\n" << solution[9]-pl<<"\n";
+    cout << solution[10]-ph << "\n" << solution[11]-pr << "\n" << solution[9]-pl <<"\n";
 
 
 

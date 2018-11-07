@@ -32,7 +32,7 @@ std::function<double(double)> flat()
   return [](double p){ return 0.5; };
 }
 
-std::function<double(double)> neutral()
+std::function<double(double)> identity()
 {
   return [](double p){ return p; };
 }
