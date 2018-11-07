@@ -53,7 +53,7 @@ public class POAdaptiverush extends AbstractionLayerAI {
     Random r = new Random();
     protected UnitTypeTable utt;
 
-    public static boolean INFO = false;
+    public static boolean INFO = true;
     public static boolean DEBUG = false;
 
     public static int NB_SAMPLE = 50;
@@ -887,7 +887,9 @@ public class POAdaptiverush extends AbstractionLayerAI {
                 if(INFO){
                     System.out.println(b.readLine());
                     System.out.println(b.readLine());
+                    System.out.println(b.readLine());
                 }else{
+                    b.readLine();
                     b.readLine();
                     b.readLine();
                 }
