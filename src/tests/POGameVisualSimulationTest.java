@@ -50,8 +50,9 @@ public class POGameVisualSimulationTest {
 	//PhysicalGameState pgs = PhysicalGameState.load("maps/DoubleGame24x24.xml", utt);
 
 	// not in the competition
-	PhysicalGameState pgs = PhysicalGameState.load("maps/24x24/basesWorkers24x24A.xml", utt);
+	//PhysicalGameState pgs = PhysicalGameState.load("maps/24x24/basesWorkers24x24A.xml", utt);
 	//PhysicalGameState pgs = PhysicalGameState.load("maps/32x32/basesWorkers32x32A.xml", utt);
+	PhysicalGameState pgs = PhysicalGameState.load("maps/64x64/basesWorkers64x64A.xml", utt);
 	//PhysicalGameState pgs = PhysicalGameState.load("maps/BroodWar/(2)Benzene.scxA.xml", utt);
 	
         GameState gs = new GameState(pgs, utt);
