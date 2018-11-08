@@ -92,9 +92,9 @@ int main(int argv, char *argc[])
      * inverse_logistic => insane optimistic behavior
      */    
     const int LAMBDA = 5;
-    //auto phi_callback = identity();
+    auto phi_callback = identity();
     //auto phi_callback = flat();
-    auto phi_callback = logistic( LAMBDA );
+    //auto phi_callback = logistic( LAMBDA );
     //auto phi_callback = inverse_logistic( LAMBDA );
     //auto phi_callback = logit( LAMBDA );
 

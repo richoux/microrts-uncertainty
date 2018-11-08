@@ -72,20 +72,29 @@ public class CompareAllAIsPartiallyObservable {
       path = "/home/flo/microrts_results";
       TIMEOUT = 4000;
     }
+
+    /* Timeouts in the competition
+       8x8 maps: 3000
+       16x16 maps: 4000
+       24x24 maps: 5000
+       32x32 maps: 6000
+       64x64 maps: 8000
+       > 64x64 maps: 12000
+     */
     
     List<AI> bots = new LinkedList<AI>();
     UnitTypeTable utt = new UnitTypeTable(UnitTypeTable.VERSION_ORIGINAL_FINETUNED); // Advanced parameters
     // UnitTypeTable utt = new UnitTypeTable();
 
 
-    // PhysicalGameState pgs = PhysicalGameState.load("maps/8x8/basesWorkers8x8A.xml", utt);
+    PhysicalGameState pgs = PhysicalGameState.load("maps/8x8/basesWorkers8x8A.xml", utt);
     // PhysicalGameState pgs = PhysicalGameState.load("maps/16x16/basesWorkers16x16A.xml", utt);
     // PhysicalGameState pgs = PhysicalGameState.load("maps/BWDistantResources32x32.xml", utt);
     // PhysicalGameState pgs = PhysicalGameState.load("maps/BroodWar/(4)BloodBath.scmB.xml", utt);
     // PhysicalGameState pgs = PhysicalGameState.load("maps/8x8/FourBasesWorkers8x8.xml", utt);
     // PhysicalGameState pgs = PhysicalGameState.load("maps/16x16/TwoBasesBarracks16x16.xml", utt);
     // PhysicalGameState pgs = PhysicalGameState.load("maps/NoWhereToRun9x8.xml", utt);
-    PhysicalGameState pgs = PhysicalGameState.load("maps/DoubleGame24x24.xml", utt);
+    // PhysicalGameState pgs = PhysicalGameState.load("maps/DoubleGame24x24.xml", utt);
     GameState gs = new GameState(pgs, utt);
     
     bots.add(new POAdaptiverush(utt, "src/ai/poadaptive/distributions.xml", "src/ai/poadaptive/distribution_woutb.xml", "src/ai/poadaptive/solver_cpp"));
