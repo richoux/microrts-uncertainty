@@ -75,7 +75,10 @@ public class POAdaptiverush extends AbstractionLayerAI {
 
     boolean random_version = false;
     boolean scout = false;
+    long scout_ID = -1;
 
+    int my_resource_patches;
+  
     int nbSamples;
     HashMap<Integer, HashMap> distribution_b;
     HashMap<Integer, HashMap> distribution_woutb;
@@ -299,6 +302,19 @@ public class POAdaptiverush extends AbstractionLayerAI {
         }
         // System.out.println("LightRushAI for player " + player + " (cycle " + gs.getTime() + ")");
 
+	// map tiles
+	long map_tiles = pgs.getWidth() * pgs.getHeight();
+	double distance_threshold = Math.sqrt( map_tiles ) / 4;
+	
+	// determine how many resource patches I have near my bases, given a distance threshold
+	my_resource_patches = 0;
+	for( Unit r : pgs.getUnits() )
+	  if( r.getType().isResource )
+	    for( Unit b : pgs.getUnits() )
+	      if( b.getType().isStockpile && b.getPlayer() == p.getID() )
+		if( Math.sqrt( Math.pow(b.getX()-r.getX(), 2) + Math.pow(b.getY()-r.getY(), 2) ) <= distance_threshold )
+		  ++my_resource_patches;
+
         // behavior of bases:
         for (Unit u : pgs.getUnits()) {
             if (u.getType() == baseType
@@ -318,12 +334,23 @@ public class POAdaptiverush extends AbstractionLayerAI {
         }
 
         // behavior of melee units:
+	int number_melee_units = 0;
+	for( Unit u : pgs.getUnits() )
+	  if( u.getType().canAttack && !u.getType().canHarvest && u.getPlayer() == player && gs.getActionAssignment(u) == null )
+	    ++number_melee_units;
+
         for (Unit u : pgs.getUnits()) {
             if (u.getType().canAttack && !u.getType().canHarvest
                     && u.getPlayer() == player
                     && gs.getActionAssignment(u) == null) {
-                // meleeUnitBehavior(u, p, gs);
-                meleeUnitBehavior_heatmap(u, p, gs);
+	      // BASIC BEHAVIOR
+	      /*
+	      // not BASIC BEHAVIOR
+	      if( number_melee_units >= 10 )
+		meleeUnitBehavior_heatmap(u, p, gs);
+	      else
+	      */
+		meleeUnitBehavior(u, p, gs);
             }
         }
 
@@ -335,7 +362,7 @@ public class POAdaptiverush extends AbstractionLayerAI {
                 workers.add(u);
             }
         }
-        workersBehavior(workers, p, pgs);
+        workersBehavior(workers, p, gs);
 
         // This method simply takes all the unit actions executed so far, and packages them into a PlayerAction
         return translateActions(player, gs);
@@ -343,19 +370,24 @@ public class POAdaptiverush extends AbstractionLayerAI {
 
     public void baseBehavior(Unit u, Player p, PhysicalGameState pgs) {
         int nworkers = 0;
-        for (Unit u2 : pgs.getUnits()) {
-            if (u2.getType() == workerType
-                    && u2.getPlayer() == p.getID()) {
+        for( Unit u2 : pgs.getUnits() )
+	  if( u2.getType() == workerType && u2.getPlayer() == p.getID() && u2.getID() != scout_ID )
                 nworkers++;
-            }
+	
+	// BASIC BEHAVIOR
+	/*
+	// not BASIC BEHAVIOR
+	// train 1 worker for each resource patch, excluding the scout
+        if( nworkers < my_resource_patches && p.getResources() >= workerType.cost )
+	*/
+        if( nworkers < 1 && p.getResources() >= workerType.cost )
+	  train(u, workerType); 
+
+        else if( !scout )
+	{
+            train(u, workerType);
+            scout = true;
         }
-        if (nworkers < 1 && p.getResources() >= workerType.cost) {
-            train(u, workerType); 
-        }
-        // } else if (!scout){
-        //     train(u, workerType);
-        //     scout = true;
-        // }
     }
     
     public void meleeUnitBehavior_heatmap(Unit u, Player p, GameState gs) {
@@ -936,14 +968,32 @@ public class POAdaptiverush extends AbstractionLayerAI {
     }
 
 
-    public void workersBehavior(List<Unit> workers, Player p, PhysicalGameState pgs) {
+    public void workersBehavior(List<Unit> workers, Player p, GameState gs) {
+      PhysicalGameState pgs = gs.getPhysicalGameState();
         int nbases = 0;
         int nbarracks = 0;
 
         int resourcesUsed = 0;
         List<Unit> freeWorkers = new LinkedList<Unit>();
-        freeWorkers.addAll(workers);
+	// not BASIC BEHAVIOR
+	// freeWorkers.addAll(workers);
+	for( Unit w : workers )
+	  if( w.getID() != scout_ID )
+	    freeWorkers.add( w );
+	  else
+	      meleeUnitBehavior_heatmap(w, p, gs);
 
+	// if our scout died
+	if( scout && scout_ID != -1 && workers.size() == freeWorkers.size() )
+	  scout_ID = -1;
+	
+	if( scout && scout_ID == -1 && !freeWorkers.isEmpty() && freeWorkers.get(0) != null )
+	{
+	  Unit w = freeWorkers.remove(0);
+	  scout_ID = w.getID();
+	  meleeUnitBehavior_heatmap(w, p, gs);
+	}
+	
         if (workers.isEmpty()) {
             return;
         }
