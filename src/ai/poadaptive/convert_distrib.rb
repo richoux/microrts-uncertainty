@@ -37,13 +37,13 @@ end
 begin
   file = File.open( new_file, "w" )
   timehash.sort.map do |k, v|
-    time_line = "Time:" + k.to_s + "\n"
+    time_line = "Time " + k.to_s + "\n"
     file.write( time_line )
     values = v.split(':')
-    worker_line = "worker:" + values[1].to_s + "\n"
-    ranged_line = "ranged:" + values[3].to_s + "\n"
-    light_line = "light:" + values[5].to_s + "\n"
-    heavy_line = "heavy:" + values[7].to_s + "\n"
+    worker_line = "worker " + values[1].to_s + "\n"
+    ranged_line = "ranged " + values[3].to_s + "\n"
+    light_line = "light " + values[5].to_s + "\n"
+    heavy_line = "heavy " + values[7].to_s + "\n"
     file.write( worker_line ) 
     file.write( ranged_line ) 
     file.write( light_line ) 
