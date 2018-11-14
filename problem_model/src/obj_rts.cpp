@@ -17,6 +17,13 @@ MaxDiff::MaxDiff( const vector< double >& coeff,
   : Objective( "Max Stochastic diff" ), _coeff(coeff), _samples(samples), phi(phi)   
 { }
 
+/*
+ * Samples indexes:
+ * 0 for worker
+ * 1 for heavy
+ * 2 for ranged
+ * 3 for light
+ */
 
 double MaxDiff::required_cost( const vector< Variable >& vecVariables ) const 
 {

@@ -53,7 +53,7 @@ public class POAdaptiverush extends AbstractionLayerAI {
     Random r = new Random();
     protected UnitTypeTable utt;
 
-    public static boolean INFO = true;
+    public static boolean INFO = false;
     public static boolean DEBUG = false;
 
     public static int NB_SAMPLE = 50;

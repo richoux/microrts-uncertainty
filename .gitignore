@@ -5,6 +5,7 @@
 src/ai/poadaptive/data_solver
 src/ai/poadaptive/solver_cpp
 problem_model/solver_cpp
+problem_model/src/solver
 *.o
 *~
 .DS_Store
