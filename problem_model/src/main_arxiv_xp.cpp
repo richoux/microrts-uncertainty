@@ -41,16 +41,16 @@ int main(int argc, char *argv[])
   int nb_samples = std::stoi( argv[2] );
   int nb_runs = std::stoi( argv[3] );
 
-  int LAMBDA;
-  if( argc == 5 )
-    LAMBDA = std::stoi( argv[4] );
-  else
-    LAMBDA = 5;
+  // int LAMBDA;
+  // if( argc == 5 )
+  //   LAMBDA = std::stoi( argv[4] );
+  // else
+  //   LAMBDA = 5;
 
   int success_identity = 0;
-  int success_logistic = 0;
-  int success_logit = 0;
-  int success_inverse_logistic = 0;  
+  // int success_logistic = 0;
+  // int success_logit = 0;
+  // int success_inverse_logistic = 0;  
   
   random_device			rd;
   mt19937			rng ( rd() );
@@ -327,109 +327,109 @@ int main(int argc, char *argv[])
   
     // cout << "\n/////////////////////\nLogistic - pessimistic\n";
   
-    phi_callback = logistic( LAMBDA );
-    obj = make_shared<MaxDiff>( vector<double>{0.374, 1., 1.564, 1., 2.675, 0.472, 2.119, 0.639, 1.},
-				samples,
-				phi_callback );
+    // phi_callback = logistic( LAMBDA );
+    // obj = make_shared<MaxDiff>( vector<double>{0.374, 1., 1.564, 1., 2.675, 0.472, 2.119, 0.639, 1.},
+    // 				samples,
+    // 				phi_callback );
 
-    Solver solver_logistic( variables, constraints, obj );
+    // Solver solver_logistic( variables, constraints, obj );
     
-    std::fill( solution.begin(), solution.end(), 0 );
-    cost = 0.;
+    // std::fill( solution.begin(), solution.end(), 0 );
+    // cost = 0.;
 
-    solver_logistic.solve( cost, solution, 10000, 100000 );
+    // solver_logistic.solve( cost, solution, 10000, 100000 );
   
-    if( solution[10] - ph == 1 && to_produce[0] )
-      //cout << "1\n";
-      ++success_logistic;
-    else  
-      if( solution[11] - pr == 1 && to_produce[1] )
-	//cout << "1\n";
-	++success_logistic;
-      else  
-	if( solution[9] - pl == 1 && to_produce[2] )
-	  //cout << "1\n";
-	  ++success_logistic;
-    //else
-    //cout << "0\n";
+    // if( solution[10] - ph == 1 && to_produce[0] )
+    //   //cout << "1\n";
+    //   ++success_logistic;
+    // else  
+    //   if( solution[11] - pr == 1 && to_produce[1] )
+    // 	//cout << "1\n";
+    // 	++success_logistic;
+    //   else  
+    // 	if( solution[9] - pl == 1 && to_produce[2] )
+    // 	  //cout << "1\n";
+    // 	  ++success_logistic;
+    // //else
+    // //cout << "0\n";
 
-    // cout << solver_logistic.solve( cost, solution, 10000, 100000 ) << " : " << cost << " / " << obj->cost(variables) << "\n";
-    // cout << "Total enemies: H" << enemy_number_heavy << " R" << enemy_number_ranged << " L" << enemy_number_light << "\n";
-    // cout << "Current units: R" << pr << " L" << pl << " H" << ph << "\n";
-    // cout << "To produce: H" << solution[10]-ph << " R" << solution[11]-pr << " L" << solution[9]-pl <<"\n";
+    // // cout << solver_logistic.solve( cost, solution, 10000, 100000 ) << " : " << cost << " / " << obj->cost(variables) << "\n";
+    // // cout << "Total enemies: H" << enemy_number_heavy << " R" << enemy_number_ranged << " L" << enemy_number_light << "\n";
+    // // cout << "Current units: R" << pr << " L" << pl << " H" << ph << "\n";
+    // // cout << "To produce: H" << solution[10]-ph << " R" << solution[11]-pr << " L" << solution[9]-pl <<"\n";
 
-    // cout << "\n/////////////////////\nLogit - optimistic\n";
+    // // cout << "\n/////////////////////\nLogit - optimistic\n";
   
-    phi_callback = logit( LAMBDA );
-    obj = make_shared<MaxDiff>( vector<double>{0.374, 1., 1.564, 1., 2.675, 0.472, 2.119, 0.639, 1.},
-				samples,
-				phi_callback );
+    // phi_callback = logit( LAMBDA );
+    // obj = make_shared<MaxDiff>( vector<double>{0.374, 1., 1.564, 1., 2.675, 0.472, 2.119, 0.639, 1.},
+    // 				samples,
+    // 				phi_callback );
 
-    Solver solver_logit( variables, constraints, obj );
+    // Solver solver_logit( variables, constraints, obj );
     
-    std::fill( solution.begin(), solution.end(), 0 );
-    cost = 0.;
+    // std::fill( solution.begin(), solution.end(), 0 );
+    // cost = 0.;
 
-    solver_logit.solve( cost, solution, 10000, 100000 );
+    // solver_logit.solve( cost, solution, 10000, 100000 );
     
-    if( solution[10] - ph == 1 && to_produce[0] )
-      //cout << "1\n";
-      ++success_logit;
-    else  
-      if( solution[11] - pr == 1 && to_produce[1] )
-	//cout << "1\n";
-      ++success_logit;
-      else  
-	if( solution[9] - pl == 1 && to_produce[2] )
-	  //cout << "1\n";
-	  ++success_logit;
-    //else
-    //cout << "0\n";
+    // if( solution[10] - ph == 1 && to_produce[0] )
+    //   //cout << "1\n";
+    //   ++success_logit;
+    // else  
+    //   if( solution[11] - pr == 1 && to_produce[1] )
+    // 	//cout << "1\n";
+    //   ++success_logit;
+    //   else  
+    // 	if( solution[9] - pl == 1 && to_produce[2] )
+    // 	  //cout << "1\n";
+    // 	  ++success_logit;
+    // //else
+    // //cout << "0\n";
   
-    // cout << solver_logit.solve( cost, solution, 10000, 100000 ) << " : " << cost << " / " << obj->cost(variables) << "\n";
-    // cout << "Total enemies: H" << enemy_number_heavy << " R" << enemy_number_ranged << " L" << enemy_number_light << "\n";
-    // cout << "Current units: R" << pr << " L" << pl << " H" << ph << "\n";
-    // cout << "To produce: H" << solution[10]-ph << " R" << solution[11]-pr << " L" << solution[9]-pl <<"\n";
+    // // cout << solver_logit.solve( cost, solution, 10000, 100000 ) << " : " << cost << " / " << obj->cost(variables) << "\n";
+    // // cout << "Total enemies: H" << enemy_number_heavy << " R" << enemy_number_ranged << " L" << enemy_number_light << "\n";
+    // // cout << "Current units: R" << pr << " L" << pl << " H" << ph << "\n";
+    // // cout << "To produce: H" << solution[10]-ph << " R" << solution[11]-pr << " L" << solution[9]-pl <<"\n";
 
-    // cout << "\n/////////////////////\nInverse Logistic - crazy optimistic\n";
+    // // cout << "\n/////////////////////\nInverse Logistic - crazy optimistic\n";
   
-    phi_callback = logit( LAMBDA );
-    obj = make_shared<MaxDiff>( vector<double>{0.374, 1., 1.564, 1., 2.675, 0.472, 2.119, 0.639, 1.},
-				samples,
-				phi_callback );
+    // phi_callback = logit( LAMBDA );
+    // obj = make_shared<MaxDiff>( vector<double>{0.374, 1., 1.564, 1., 2.675, 0.472, 2.119, 0.639, 1.},
+    // 				samples,
+    // 				phi_callback );
 
-    Solver solver_inverse_logistic( variables, constraints, obj );
+    // Solver solver_inverse_logistic( variables, constraints, obj );
     
-    std::fill( solution.begin(), solution.end(), 0 );
-    cost = 0.;
+    // std::fill( solution.begin(), solution.end(), 0 );
+    // cost = 0.;
 
-    solver_inverse_logistic.solve( cost, solution, 10000, 100000 );
+    // solver_inverse_logistic.solve( cost, solution, 10000, 100000 );
     
-    if( solution[10] - ph == 1 && to_produce[0] )
-      //cout << "1\n";
-      ++success_inverse_logistic;
-    else  
-      if( solution[11] - pr == 1 && to_produce[1] )
-	//cout << "1\n";
-	++success_inverse_logistic;
-      else  
-	if( solution[9] - pl == 1 && to_produce[2] )
-	  //cout << "1\n";
-	  ++success_inverse_logistic;
-    //else
-    //cout << "0\n";
+    // if( solution[10] - ph == 1 && to_produce[0] )
+    //   //cout << "1\n";
+    //   ++success_inverse_logistic;
+    // else  
+    //   if( solution[11] - pr == 1 && to_produce[1] )
+    // 	//cout << "1\n";
+    // 	++success_inverse_logistic;
+    //   else  
+    // 	if( solution[9] - pl == 1 && to_produce[2] )
+    // 	  //cout << "1\n";
+    // 	  ++success_inverse_logistic;
+    // //else
+    // //cout << "0\n";
   
-    // cout << solver_inverse_logistic.solve( cost, solution, 10000, 100000 ) << " : " << cost << " / " << obj->cost(variables) << "\n";
-    // cout << "Total enemies: H" << enemy_number_heavy << " R" << enemy_number_ranged << " L" << enemy_number_light << "\n";
-    // cout << "Current units: R" << pr << " L" << pl << " H" << ph << "\n";
-    // cout << "To produce: H" << solution[10]-ph << " R" << solution[11]-pr << " L" << solution[9]-pl <<"\n";
+    // // cout << solver_inverse_logistic.solve( cost, solution, 10000, 100000 ) << " : " << cost << " / " << obj->cost(variables) << "\n";
+    // // cout << "Total enemies: H" << enemy_number_heavy << " R" << enemy_number_ranged << " L" << enemy_number_light << "\n";
+    // // cout << "Current units: R" << pr << " L" << pl << " H" << ph << "\n";
+    // // cout << "To produce: H" << solution[10]-ph << " R" << solution[11]-pr << " L" << solution[9]-pl <<"\n";
 
   } // loop
 
-  cout << success_identity << "\n"
-       << success_logistic << "\n"
-       << success_logit << "\n"
-       << success_inverse_logistic << "\n";
+  cout << success_identity << "\n";
+       // << success_logistic << "\n"
+       // << success_logit << "\n"
+       // << success_inverse_logistic << "\n";
   
   return EXIT_SUCCESS;
 }
