@@ -203,7 +203,9 @@ int main(int argc, char *argv[])
      * logit / flat (but prefer logit) => optimistic behavior
      * inverse_logistic => insane optimistic behavior
      */    
-    auto phi_callback = identity();
+    //auto phi_callback = identity();
+    //auto phi_callback = pessimistic();
+    auto phi_callback = optimistic();
     //auto phi_callback = flat();
     //auto phi_callback = logistic( LAMBDA );
     //auto phi_callback = inverse_logistic( LAMBDA );
