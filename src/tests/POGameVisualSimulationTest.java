@@ -51,8 +51,8 @@ public class POGameVisualSimulationTest {
 
 	// not in the competition
 	//PhysicalGameState pgs = PhysicalGameState.load("maps/24x24/basesWorkers24x24A.xml", utt);
-	//PhysicalGameState pgs = PhysicalGameState.load("maps/32x32/basesWorkers32x32A.xml", utt);
-	PhysicalGameState pgs = PhysicalGameState.load("maps/64x64/basesWorkers64x64A.xml", utt);
+	PhysicalGameState pgs = PhysicalGameState.load("maps/32x32/basesWorkers32x32A.xml", utt);
+	//PhysicalGameState pgs = PhysicalGameState.load("maps/64x64/basesWorkers64x64A.xml", utt);
 	//PhysicalGameState pgs = PhysicalGameState.load("maps/BroodWar/(2)Benzene.scxA.xml", utt);
 	
         GameState gs = new GameState(pgs, utt);
@@ -60,14 +60,14 @@ public class POGameVisualSimulationTest {
         int PERIOD = 20;
         boolean gameover = false;
 
-	AI ai1 = new POAdaptiverush(utt, "src/ai/poadaptive/distributions.xml", "src/ai/poadaptive/distribution_woutb.xml", "src/ai/poadaptive/solver_cpp");
-        // AI ai1 = new POAdaptiverush(utt, "src/ai/poadaptive/distributions.xml", "src/ai/poadaptive/solver_cpp");
-	// AI ai1 = new RandomPOAdaptiverush(utt, "src/ai/poadaptive/distributions.xml", "src/ai/poadaptive/distribution_woutb.xml", "src/ai/poadaptive/solver_cpp");
+	//AI ai1 = new POAdaptiverush(utt, "src/ai/poadaptive/distributions.xml", "src/ai/poadaptive/distribution_woutb.xml", "src/ai/poadaptive/solver_cpp");
+	AI ai1 = new RandomPOAdaptiverush(utt, "src/ai/poadaptive/distributions.xml", "src/ai/poadaptive/distribution_woutb.xml", "src/ai/poadaptive/solver_cpp");
 
+        //AI ai2 = new POLightRush(utt, new BFSPathFinding());
+        AI ai2 = new POLightRush(utt);
 
 	// AI ai2 = new RandomAI();
         // AI ai2 = new POWorkerRush(utt, new BFSPathFinding());
-        AI ai2 = new POLightRush(utt, new BFSPathFinding());
         // AI ai2 = new POHeavyRush(utt, new BFSPathFinding());
 	// AI ai2 = new PORangedRush(utt, new BFSPathFinding());
 	// AI ai2 = new ContinuingNaiveMC(PERIOD, 200, 0.33f, 0.2f, new RandomBiasedAI(), new SimpleEvaluationFunction());

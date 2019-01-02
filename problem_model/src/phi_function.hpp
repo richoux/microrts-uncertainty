@@ -58,7 +58,7 @@ std::function<double(double)> optimistic()
   {
     if( p < 0.005 ) return 0.0;
     if( p > 0.995 ) return 1.0;
-    return std::max( 0., 1 + log( p / ( 2 - p ) ) / 10 ) ;
+    return std::max( 0., 1 + ( log( p / ( 2 - p ) ) / 10 ) ) ;
   };
 }
 
