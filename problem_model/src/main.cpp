@@ -85,18 +85,9 @@ int main(int argv, char *argc[])
 
     vector< shared_ptr<Constraint> > constraints = {ranged, heavy, light, cst_ressources};
 
-    /*
-     * identity => RDU becomes Expected Utility
-     * logistic => pessimistic behavior
-     * logit / flat (but prefer logit) => optimistic behavior
-     * inverse_logistic => insane optimistic behavior
-     */    
-    const int LAMBDA = 5;
-    auto phi_callback = identity();
-    //auto phi_callback = flat();
-    //auto phi_callback = logistic( LAMBDA );
-    //auto phi_callback = inverse_logistic( LAMBDA );
-    //auto phi_callback = logit( LAMBDA );
+    //auto phi_callback = identity();
+    //auto phi_callback = pessimistic();
+    auto phi_callback = optimistic();
 
     cout << "phi(0.1) = " << phi_callback(0.1)
 	 << ", phi(0.5) = " << phi_callback(0.5)

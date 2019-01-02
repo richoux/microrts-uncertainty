@@ -2,6 +2,7 @@
 
 #include <cmath>
 #include <functional>
+#include <algorithm>
 
 std::function<double(double)> logistic( int lambda, double shift )
 {
@@ -28,7 +29,7 @@ std::function<double(double)> logit( int lambda )
   {
     if( p < 0.005 ) return 0.0;
     if( p > 0.995 ) return 1.0;
-    return 0.5 + log( p / ( 1 - p ) ) / (lambda*5) ;
+    return std::max( 0., 1 + log( p / ( 2 - p ) ) / (lambda*2) ) ;
   };
 }
 
@@ -44,20 +45,31 @@ std::function<double(double)> identity()
 
 ////////////////
 
+// logistic(10, 1.3)
 std::function<double(double)> pessimistic()
 {
   return [](double p){ return 1.0 / ( 1 + exp( - 10 * (2*p - 1.3) ) ); };
-  //return [](double p){ return logistic(10, 1.3); };
 }
 
-// inverse logistic respecting phi(0)=0 and phi(1)=1
+// logit(2)
 std::function<double(double)> optimistic()
 {
   return [](double p)
   {
     if( p < 0.005 ) return 0.0;
     if( p > 0.995 ) return 1.0;
-    return 7*p - 19*pow(p,2) + 13*pow(p,3);
-    // return 0.04027005 + 7.37812*p - 19.3993*pow(p,2) + 12.95399*pow(p,3);
+    return std::max( 0., 1 + log( p / ( 2 - p ) ) / 10 ) ;
   };
 }
+
+// inverse logistic respecting phi(0)=0 and phi(1)=1
+// std::function<double(double)> optimistic()
+// {
+//   return [](double p)
+//   {
+//     if( p < 0.005 ) return 0.0;
+//     if( p > 0.995 ) return 1.0;
+//     return 7*p - 19*pow(p,2) + 13*pow(p,3);
+//     // return 0.04027005 + 7.37812*p - 19.3993*pow(p,2) + 12.95399*pow(p,3);
+//   };
+// }

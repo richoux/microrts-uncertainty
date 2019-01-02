@@ -87,9 +87,9 @@ public class CompareAllAIsPartiallyObservable {
     // UnitTypeTable utt = new UnitTypeTable();
 
 
-    // PhysicalGameState pgs = PhysicalGameState.load("maps/8x8/basesWorkers8x8A.xml", utt);
+    PhysicalGameState pgs = PhysicalGameState.load("maps/8x8/basesWorkers8x8A.xml", utt);
     // PhysicalGameState pgs = PhysicalGameState.load("maps/16x16/basesWorkers16x16A.xml", utt);
-    PhysicalGameState pgs = PhysicalGameState.load("maps/32x32/basesWorkers32x32A.xml", utt);
+    // PhysicalGameState pgs = PhysicalGameState.load("maps/32x32/basesWorkers32x32A.xml", utt);
     // PhysicalGameState pgs = PhysicalGameState.load("maps/BWDistantResources32x32.xml", utt);
     // PhysicalGameState pgs = PhysicalGameState.load("maps/BroodWar/(4)BloodBath.scmB.xml", utt);
     // PhysicalGameState pgs = PhysicalGameState.load("maps/8x8/FourBasesWorkers8x8.xml", utt);
@@ -109,10 +109,10 @@ public class CompareAllAIsPartiallyObservable {
     // bots.add(new POWorkerRush(utt, new BFSPathFinding()));
     // bots.add(new POHeavyRush(utt, new BFSPathFinding()));
     bots.add(new POLightRush(utt));
-    bots.add(new PORangedRush(utt));
-    bots.add(new POWorkerRush(utt));
-    bots.add(new POHeavyRush(utt));
-    bots.add(new BS3_NaiveMCTS(utt));
+    // bots.add(new PORangedRush(utt));
+    // bots.add(new POWorkerRush(utt));
+    // bots.add(new POHeavyRush(utt));
+    // bots.add(new BS3_NaiveMCTS(utt));
 
     // public BS3_NaiveMCTS(int available_time, int max_playouts, int lookahead, int max_depth,
     //         float e_l, float e_g, float e_0, AI policy, EvaluationFunction a_ef, boolean fensa) {
