@@ -85,9 +85,9 @@ int main(int argv, char *argc[])
 
     vector< shared_ptr<Constraint> > constraints = {ranged, heavy, light, cst_ressources};
 
-    //auto phi_callback = identity();
+    auto phi_callback = identity();
     //auto phi_callback = pessimistic();
-    auto phi_callback = optimistic();
+    //auto phi_callback = optimistic();
 
     cout << "phi(0.1) = " << phi_callback(0.1)
 	 << ", phi(0.5) = " << phi_callback(0.5)
