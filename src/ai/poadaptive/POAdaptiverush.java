@@ -75,7 +75,11 @@ public class POAdaptiverush extends AbstractionLayerAI {
 
     boolean random_version = false;
     boolean scout = false;
+    // not BASIC BEHAVIOR
+    // long scout_ID = -1;
 
+    int my_resource_patches;
+  
     int nbSamples;
     HashMap<Integer, HashMap> distribution_b;
     HashMap<Integer, HashMap> distribution_woutb;
@@ -299,6 +303,19 @@ public class POAdaptiverush extends AbstractionLayerAI {
         }
         // System.out.println("LightRushAI for player " + player + " (cycle " + gs.getTime() + ")");
 
+	// map tiles
+	long map_tiles = pgs.getWidth() * pgs.getHeight();
+	double distance_threshold = Math.sqrt( map_tiles ) / 4;
+	
+	// determine how many resource patches I have near my bases, given a distance threshold
+	my_resource_patches = 0;
+	for( Unit r : pgs.getUnits() )
+	  if( r.getType().isResource )
+	    for( Unit b : pgs.getUnits() )
+	      if( b.getType().isStockpile && b.getPlayer() == p.getID() )
+		if( Math.sqrt( Math.pow(b.getX()-r.getX(), 2) + Math.pow(b.getY()-r.getY(), 2) ) <= distance_threshold )
+		  ++my_resource_patches;
+
         // behavior of bases:
         for (Unit u : pgs.getUnits()) {
             if (u.getType() == baseType
@@ -318,12 +335,23 @@ public class POAdaptiverush extends AbstractionLayerAI {
         }
 
         // behavior of melee units:
+	int number_melee_units = 0;
+	for( Unit u : pgs.getUnits() )
+	  if( u.getType().canAttack && !u.getType().canHarvest && u.getPlayer() == player && gs.getActionAssignment(u) == null )
+	    ++number_melee_units;
+
         for (Unit u : pgs.getUnits()) {
             if (u.getType().canAttack && !u.getType().canHarvest
                     && u.getPlayer() == player
                     && gs.getActionAssignment(u) == null) {
-                // meleeUnitBehavior(u, p, gs);
-                meleeUnitBehavior_heatmap(u, p, gs);
+	      // BASIC BEHAVIOR
+	      meleeUnitBehavior_heatmap(u, p, gs);
+	      
+	      // not BASIC BEHAVIOR
+	      // if( number_melee_units >= 4 )
+	      // 	meleeUnitBehavior_heatmap(u, p, gs);
+	      // else
+	      // meleeUnitBehavior(u, p, gs);
             }
         }
 
@@ -335,7 +363,7 @@ public class POAdaptiverush extends AbstractionLayerAI {
                 workers.add(u);
             }
         }
-        workersBehavior(workers, p, pgs);
+        workersBehavior(workers, p, gs);
 
         // This method simply takes all the unit actions executed so far, and packages them into a PlayerAction
         return translateActions(player, gs);
@@ -343,16 +371,23 @@ public class POAdaptiverush extends AbstractionLayerAI {
 
     public void baseBehavior(Unit u, Player p, PhysicalGameState pgs) {
         int nworkers = 0;
-        for (Unit u2 : pgs.getUnits()) {
-            if (u2.getType() == workerType
-                    && u2.getPlayer() == p.getID()) {
+        for( Unit u2 : pgs.getUnits() )
+	      // BASIC BEHAVIOR
+	      if( u2.getType() == workerType && u2.getPlayer() == p.getID() )
+	      // not BASIC BEHAVIOR
+	      //if( u2.getType() == workerType && u2.getPlayer() == p.getID() && u2.getID() != scout_ID )
                 nworkers++;
-            }
-        }
-        if (nworkers < 1 && p.getResources() >= workerType.cost) {
-            train(u, workerType); 
-        }
-        // } else if (!scout){
+	
+	// BASIC BEHAVIOR
+        if( nworkers < 1 && p.getResources() >= workerType.cost )
+	  train(u, workerType); 
+	// not BASIC BEHAVIOR
+	// train 1 worker for each resource patch, excluding the scout
+        // if( nworkers < my_resource_patches && p.getResources() >= workerType.cost )
+
+	// not BASIC BEHAVIOR
+        // else if( !scout )
+	// {
         //     train(u, workerType);
         //     scout = true;
         // }
@@ -846,9 +881,9 @@ public class POAdaptiverush extends AbstractionLayerAI {
                 info[3] += tmp[3];
             }
             if(INFO){
-                System.out.println("Samples moy = " + info[0]/nbSamples+ " / " + info[1]/nbSamples+ " / " + info[2]/nbSamples+ " / "+info[3]/nbSamples);
-                System.out.println(" Unités player("+(playerHeavy+playerRanged+playerLight) +"+"+playerWorker+") : "+playerWorker+" / " +playerHeavy+ "/"+playerRanged+"/"+playerLight);
-                System.out.println(" Unités observed("+ (observedHeavy+observedRanged+observedLight)+"+"+observedWorker+") : "+observedWorker+" / " +observedHeavy+ "/"+observedRanged+"/"+observedLight);
+                System.out.println("Samples moy = W" + info[0]/nbSamples+ " / H" + info[1]/nbSamples+ " / R" + info[2]/nbSamples+ " / L"+info[3]/nbSamples);
+                System.out.println(" Units player(" + (playerHeavy+playerRanged+playerLight) + "+" + playerWorker + ") : W" + playerWorker + " / H" + playerHeavy+ " / R" + playerRanged + " / L" + playerLight);
+                System.out.println(" Units observed(" + (observedHeavy+observedRanged+observedLight) + "+" + observedWorker + ") : W" + observedWorker + " / H" + observedHeavy + " / R" + observedRanged + " / L" + observedLight);
             }
             // write parameter for solver in a file
             try {
@@ -866,7 +901,7 @@ public class POAdaptiverush extends AbstractionLayerAI {
                 }
                 writer.close();
             } catch(IOException e1) {
-                System.out.println("Excepeiotn in printer");
+                System.out.println("Exception in printer");
             }
 
             // get solutions
@@ -887,7 +922,9 @@ public class POAdaptiverush extends AbstractionLayerAI {
                 if(INFO){
                     System.out.println(b.readLine());
                     System.out.println(b.readLine());
+                    System.out.println(b.readLine());
                 }else{
+                    b.readLine();
                     b.readLine();
                     b.readLine();
                 }
@@ -895,7 +932,7 @@ public class POAdaptiverush extends AbstractionLayerAI {
                 sol_ranged = Integer.parseInt(b.readLine());
                 sol_light = Integer.parseInt(b.readLine());
                 if(INFO)
-                    System.out.println("H:" + sol_heavy + " R" + sol_ranged + " L" + sol_light + "\n\n");
+                    System.out.println("H" + sol_heavy + " R" + sol_ranged + " L" + sol_light + "\n\n");
                 b.close();
             }
             catch(IOException e1) {
@@ -934,14 +971,33 @@ public class POAdaptiverush extends AbstractionLayerAI {
     }
 
 
-    public void workersBehavior(List<Unit> workers, Player p, PhysicalGameState pgs) {
+    public void workersBehavior(List<Unit> workers, Player p, GameState gs) {
+      PhysicalGameState pgs = gs.getPhysicalGameState();
         int nbases = 0;
         int nbarracks = 0;
 
         int resourcesUsed = 0;
         List<Unit> freeWorkers = new LinkedList<Unit>();
-        freeWorkers.addAll(workers);
+	// BASIC BEHAVIOR
+	freeWorkers.addAll(workers);
+	// not BASIC BEHAVIOR
+	// for( Unit w : workers )
+	//   if( w.getID() != scout_ID )
+	//     freeWorkers.add( w );
+	//   else
+	//       meleeUnitBehavior_heatmap(w, p, gs);
 
+	// // if our scout died
+	// if( scout && scout_ID != -1 && workers.size() == freeWorkers.size() )
+	//   scout_ID = -1;
+	
+	// if( scout && scout_ID == -1 && !freeWorkers.isEmpty() && freeWorkers.get(0) != null )
+	// {
+	//   Unit w = freeWorkers.remove(0);
+	//   scout_ID = w.getID();
+	//   meleeUnitBehavior_heatmap(w, p, gs);
+	// }
+	
         if (workers.isEmpty()) {
             return;
         }

@@ -1,0 +1,92 @@
+flo@adun:src git:(develop*)➤ ./solver ../../src/ai/poadaptive/distribution_b.txt 1 1000   
+593
+▶▶ 17:39.42 Wed Nov 14 2018 ◆ Jobs: 1 ◀◀                                        
+
+flo@adun:src git:(develop*)➤ ./solver ../../src/ai/poadaptive/distribution_b.txt 2 1000
+638
+▶▶ 17:41.41 Wed Nov 14 2018 ◆ Jobs: 1 ◀◀                                                                                                                                                                             
+flo@adun:src git:(develop*)➤ ./solver ../../src/ai/poadaptive/distribution_b.txt 4 1000
+635
+▶▶ 17:43.29 Wed Nov 14 2018 ◆ Jobs: 1 ◀◀                                                                                                                                                                             
+flo@adun:src git:(develop*)➤ ./solver ../../src/ai/poadaptive/distribution_b.txt 8 1000
+670
+▶▶ 17:45.23 Wed Nov 14 2018 ◆ Jobs: 1 ◀◀                                                                                                                                                                             
+flo@adun:src git:(develop*)➤ ./solver ../../src/ai/poadaptive/distribution_b.txt 16 1000
+683
+▶▶ 17:47.09 Wed Nov 14 2018 ◆ Jobs: 1 ◀◀                                                                                                                                                                             
+flo@adun:src git:(develop*)➤ ./solver ../../src/ai/poadaptive/distribution_b.txt 32 1000
+680
+▶▶ 17:48.57 Wed Nov 14 2018 ◆ Jobs: 1 ◀◀                                                                                                                                                                             
+flo@adun:src git:(develop*)➤ ./solver ../../src/ai/poadaptive/distribution_b.txt 64 1000
+690
+▶▶ 17:50.45 Wed Nov 14 2018 ◆ Jobs: 1 ◀◀                                                                                                                                                                             
+flo@adun:src git:(develop*)➤ ./solver ../../src/ai/poadaptive/distribution_b.txt 128 1000
+677
+▶▶ 17:52.34 Wed Nov 14 2018 ◆ Jobs: 1 ◀◀                                                                                                                                                                             
+flo@adun:src git:(develop*)➤ ./solver ../../src/ai/poadaptive/distribution_b.txt 256 1000
+675
+▶▶ 17:54.21 Wed Nov 14 2018 ◆ Jobs: 1 ◀◀
+
+flo@adun:src git:(develop*)➤ ./solver ../../src/ai/poadaptive/distribution_b.txt 512 1000
+680
+▶▶ 17:56.09 Wed Nov 14 2018 ◆ Jobs: 1 ◀◀
+
+flo@adun:src git:(develop*)➤ ./solver ../../src/ai/poadaptive/distribution_b.txt 1024 1000
+644
+▶▶ 17:57.56 Wed Nov 14 2018 ◆ Jobs: 1 ◀◀
+
+//////////////////////////////
+Pessimistic
+
+
+flo@adun:src git:(develop*)➤ ./solver ../../src/ai/poadaptive/distribution_b.txt 1 1000 
+599
+
+▶▶ 11:36.01 Thu Dec 06 2018 ◆ Jobs: 1 ◀◀                                                                                                                                                                         
+flo@adun:src git:(develop*)➤ ./run_arxiv.sh 
+./solver ../../src/ai/poadaptive/distribution_b.txt 2 1000
+680
+./solver ../../src/ai/poadaptive/distribution_b.txt 4 1000
+665
+./solver ../../src/ai/poadaptive/distribution_b.txt 8 1000
+686
+./solver ../../src/ai/poadaptive/distribution_b.txt 16 1000
+720
+./solver ../../src/ai/poadaptive/distribution_b.txt 32 1000
+673
+./solver ../../src/ai/poadaptive/distribution_b.txt 64 1000
+691
+./solver ../../src/ai/poadaptive/distribution_b.txt 128 1000
+699
+./solver ../../src/ai/poadaptive/distribution_b.txt 256 1000
+698
+./solver ../../src/ai/poadaptive/distribution_b.txt 512 1000
+689
+./solver ../../src/ai/poadaptive/distribution_b.txt 1024 1000
+632
+▶▶ 11:53.13 Thu Dec 06 2018 ◆ Jobs: 1 ◀◀
+
+
+//////////////////////////////
+Optimistic
+
+./solver ../../src/ai/poadaptive/distribution_b.txt 1 1000
+613
+./solver ../../src/ai/poadaptive/distribution_b.txt 2 1000
+632
+./solver ../../src/ai/poadaptive/distribution_b.txt 4 1000
+639
+./solver ../../src/ai/poadaptive/distribution_b.txt 8 1000
+670
+./solver ../../src/ai/poadaptive/distribution_b.txt 16 1000
+713
+./solver ../../src/ai/poadaptive/distribution_b.txt 32 1000
+686
+./solver ../../src/ai/poadaptive/distribution_b.txt 64 1000
+700
+./solver ../../src/ai/poadaptive/distribution_b.txt 128 1000
+693
+./solver ../../src/ai/poadaptive/distribution_b.txt 256 1000
+649
+./solver ../../src/ai/poadaptive/distribution_b.txt 512 1000
+615

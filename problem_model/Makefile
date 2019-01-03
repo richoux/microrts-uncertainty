@@ -1,7 +1,21 @@
 EXEC=solver_cpp
 
-#CXX=clang++
-CXX=g++
+# Compiler flags
+CXXFIRSTFLAGS= -Ofast -DBENCH -W -Wall -Wextra -pedantic -Wno-sign-compare -Wno-unused-parameter
+CXXFIRSTFLAGSDEBUG= -g -O0 -DBENCH -W -Wall -Wextra -pedantic -Wno-sign-compare -Wno-unused-parameter 
+
+UNAME_S := $(shell uname -s)
+ifeq ($(UNAME_S),Linux)
+	CXX=g++
+	CXXFLAGS= -std=c++14 $(CXXFIRSTFLAGS)
+	CXXFLAGSDEBUG= -std=c++14 $(CXXFIRSTFLAGSDEBUG)
+endif
+ifeq ($(UNAME_S),Darwin)
+	CXX=clang++
+	CXXFLAGS= -std=c++1y  -stdlib=libc++ $(CXXFIRSTFLAGS)
+	CXXFLAGSDEBUG= -std=c++1y  -stdlib=libc++ $(CXXFIRSTFLAGSDEBUG)
+	LDFLAGS=-pthread -lghost -lc++ -lc++abi
+endif
 
 # Directories
 SRCDIR=src
@@ -10,22 +24,8 @@ BINDIR=.
 RTSDIR=../src/ai/poadaptive
 INCLUDEDIR=../include
 
-# Compiler flags
-CXXFIRSTFLAGS= -Ofast -DBENCH -W -Wall -Wextra -pedantic -Wno-sign-compare -Wno-unused-parameter
-CXXFIRSTFLAGSDEBUG= -g -O0 -DBENCH -W -Wall -Wextra -pedantic -Wno-sign-compare -Wno-unused-parameter 
-
 # Linker flags
-LDFLAGS= -pthread -L../lib -lghost
-
-# Compiler
-# ifneq (,$(findstring clang,$(CXX)))
-# 	CXXFLAGS= -std=c++1y  -stdlib=libc++ $(CXXFIRSTFLAGS)
-# 	CXXFLAGSDEBUG= -std=c++1y  -stdlib=libc++ $(CXXFIRSTFLAGSDEBUG)
-# 	LDFLAGS=-pthread -lghost -lc++ -lc++abi
-# else
-CXXFLAGS= -std=c++14 $(CXXFIRSTFLAGS)
-CXXFLAGSDEBUG= -std=c++14 $(CXXFIRSTFLAGSDEBUG)
-# endif
+LDFLAGS= -pthread -lghost
 
 # Files
 SOURCES=$(foreach sdir, $(SRCDIR), $(wildcard $(sdir)/*.cpp))
