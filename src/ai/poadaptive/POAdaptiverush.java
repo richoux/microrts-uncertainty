@@ -344,14 +344,14 @@ public class POAdaptiverush extends AbstractionLayerAI {
             if (u.getType().canAttack && !u.getType().canHarvest
                     && u.getPlayer() == player
                     && gs.getActionAssignment(u) == null) {
-	      // BASIC BEHAVIOR
-	      meleeUnitBehavior_heatmap(u, p, gs);
+              // BASIC BEHAVIOR
+              meleeUnitBehavior_heatmap(u, p, gs);
 	      
-	      // not BASIC BEHAVIOR
-	      // if( number_melee_units >= 4 )
-	      // 	meleeUnitBehavior_heatmap(u, p, gs);
-	      // else
-	      // meleeUnitBehavior(u, p, gs);
+              // not BASIC BEHAVIOR
+              // if( number_melee_units >= 4 )
+              //   meleeUnitBehavior_heatmap(u, p, gs);
+              // else
+              //   meleeUnitBehavior(u, p, gs);
             }
         }
 
