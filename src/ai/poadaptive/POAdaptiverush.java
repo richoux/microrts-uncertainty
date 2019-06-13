@@ -1092,6 +1092,8 @@ public class POAdaptiverush extends AbstractionLayerAI
 				else 
           harvest( u, closestResource, closestBase );
 			}
+			// not BASIC behavior
+			// explore if no resource around. Remember where were far resources. 
     }
   }
 
