@@ -45,7 +45,7 @@ import java.io.PrintWriter;
  * @author Valentin Antuari
  * (modifications from Florian Richoux)
  */
-public class POAdaptiverush extends AbstractionLayerAI
+public class POAdaptive extends AbstractionLayerAI
 {
   Random r = new Random();
   protected UnitTypeTable utt;
@@ -93,7 +93,7 @@ public class POAdaptiverush extends AbstractionLayerAI
 
   boolean barracks;
 
-  public POAdaptiverush( UnitTypeTable a_utt,
+  public POAdaptive( UnitTypeTable a_utt,
                          PathFinding a_pf,
                          String distribution_file_b,
                          String distribution_file_wb,
@@ -109,7 +109,7 @@ public class POAdaptiverush extends AbstractionLayerAI
 		}
   }
 	
-  public POAdaptiverush( UnitTypeTable a_utt,
+  public POAdaptive( UnitTypeTable a_utt,
                          String distribution_file_b,
                          String distribution_file_wb,
                          String solver )
@@ -117,7 +117,7 @@ public class POAdaptiverush extends AbstractionLayerAI
     this( a_utt, new AStarPathFinding(), distribution_file_b, distribution_file_wb, solver );
   }
 
-  public POAdaptiverush( UnitTypeTable a_utt,
+  public POAdaptive( UnitTypeTable a_utt,
                          PathFinding a_pf,
                          String distribution_file_b,
                          String distribution_file_wb,
@@ -236,7 +236,7 @@ public class POAdaptiverush extends AbstractionLayerAI
 
   public AI clone()
 	{
-    return new POAdaptiverush( utt, pf, distribution_file_b, distribution_file_woutb, solver_name, heat_map );
+    return new POAdaptive( utt, pf, distribution_file_b, distribution_file_woutb, solver_name, heat_map );
   }
 
   public void reset()
