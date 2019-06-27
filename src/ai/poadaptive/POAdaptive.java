@@ -700,6 +700,8 @@ public class POAdaptive extends AbstractionLayerAI
 				
 				if( heat_point > -10000.0 )
 					move( u, min_x, min_y );
+				else
+                                       move( u, (int)(pgs.getWidth() * Math.random() ), (int)(pgs.getHeight() * Math.random() ) );
 			}
   }
 
