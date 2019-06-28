@@ -51,7 +51,7 @@ public class POAdaptive extends AbstractionLayerAI
 	protected UnitTypeTable utt;
 
 	public static boolean INFO = false;
-	public static boolean DEBUG = false;
+	public static boolean DEBUG = true;
 
 	public static int NB_SAMPLE = 50;
 
@@ -93,14 +93,12 @@ public class POAdaptive extends AbstractionLayerAI
 
 	boolean barracks;
 
-	void test( int hihi,
-	           double dupoil)
-		public POAdaptive( UnitTypeTable a_utt,
-		                   PathFinding a_pf,
-		                   String distribution_file_b,
-		                   String distribution_file_wb,
-		                   String solver,
-		                   double[][] heat_map )
+	public POAdaptive( UnitTypeTable a_utt,
+	                   PathFinding a_pf,
+	                   String distribution_file_b,
+	                   String distribution_file_wb,
+	                   String solver,
+	                   double[][] heat_map )
 	{
 		this( a_utt, new AStarPathFinding(), distribution_file_b, distribution_file_wb, solver );
 		if( heat_map != null )
@@ -408,15 +406,21 @@ public class POAdaptive extends AbstractionLayerAI
 
 	public void meleeUnitCommonBehavior( Unit u, Player p, GameState gs, PhysicalGameState pgs, Unit closestEnemy, int closestDistance )
 	{
+		if( DEBUG )
+		{
+			UnitAction currentAction = gs.getUnitAction( u );
+			System.out.println( "Action: " + currentAction );
+		}
+
 		if( u.getType() == rangedType && closestDistance <= 2 )
 		{
-			if( DEBUG )
-				System.out.println( "RUN" );
+			// if( DEBUG )
+			// 	System.out.println( "RUN" );
 
 			// In case we do not run away
 			UnitActionAssignment ua = gs.getUnitActions().get( closestEnemy );
-			if( DEBUG )
-				System.out.println( ua );
+			// if( DEBUG )
+			// 	System.out.println( ua );
 
 			if( closestEnemy.getType() == rangedType || ua == null || ( ua.action.getType() != UnitAction.TYPE_MOVE && closestDistance > 1 ) )
 				attack( u, closestEnemy );
@@ -555,78 +559,78 @@ public class POAdaptive extends AbstractionLayerAI
 					}
 				}
 
-				if( DEBUG )
-				{
-					System.out.println( "Position : " + u.getX() + ", " + u.getY() );
-					System.out.println( "Danger: URDL : " + danger_up + " " + danger_right + " " + danger_down + " " + danger_left );
-					if( danger_up <= danger_left )
-					{
-						if( danger_up <= danger_down )
-						{
-							if( danger_up <= danger_right )
-							{
-								// move up
-								System.out.println( "Move to : " + u.getX() + " " + ( u.getY() - 1 ) );
-							}
-							else
-							{
-								// move right
-								System.out.println( "Move to : " + ( u.getX() + 1 ) + " " + u.getY() );
-							}
-						}
-						else
-						{
-							if( danger_down <= danger_right )
-							{
-								// move down
-								System.out.println( "Move to : " + u.getX() + " " + ( u.getY() + 1 ) );
-							}
-							else
-							{
-								// move right
-								System.out.println( "Move to : " +( u.getX() + 1 ) + " " + u.getY() ); 
-							}
-						}
-					}
-					else
-					{
-						if( danger_left <= danger_down )
-						{
-							if( danger_left <= danger_right )
-							{
-								// move left
-								System.out.println( "Move to : " + ( u.getX() - 1 ) + " " + u.getY() );
-							}
-							else
-							{
-								// move right
-								System.out.println( "Move to : " + ( u.getX() + 1 ) + " " + u.getY() );
-							}
-						}
-						else
-						{
-							if( danger_down <= danger_right )
-							{
-								// move down
-								System.out.println( "Move to : " + u.getX() + " " + ( u.getY() + 1 ) );
-							}
-							else
-							{
-								// move right
-								System.out.println( "Move to : " + ( u.getX() + 1 ) + " " + u.getY() ); 
-							}
-						}
-					}
+				// if( DEBUG )
+				// {
+				// 	System.out.println( "Position : " + u.getX() + ", " + u.getY() );
+				// 	System.out.println( "Danger: URDL : " + danger_up + " " + danger_right + " " + danger_down + " " + danger_left );
+				// 	if( danger_up <= danger_left )
+				// 	{
+				// 		if( danger_up <= danger_down )
+				// 		{
+				// 			if( danger_up <= danger_right )
+				// 			{
+				// 				// move up
+				// 				System.out.println( "Move to : " + u.getX() + " " + ( u.getY() - 1 ) );
+				// 			}
+				// 			else
+				// 			{
+				// 				// move right
+				// 				System.out.println( "Move to : " + ( u.getX() + 1 ) + " " + u.getY() );
+				// 			}
+				// 		}
+				// 		else
+				// 		{
+				// 			if( danger_down <= danger_right )
+				// 			{
+				// 				// move down
+				// 				System.out.println( "Move to : " + u.getX() + " " + ( u.getY() + 1 ) );
+				// 			}
+				// 			else
+				// 			{
+				// 				// move right
+				// 				System.out.println( "Move to : " +( u.getX() + 1 ) + " " + u.getY() ); 
+				// 			}
+				// 		}
+				// 	}
+				// 	else
+				// 	{
+				// 		if( danger_left <= danger_down )
+				// 		{
+				// 			if( danger_left <= danger_right )
+				// 			{
+				// 				// move left
+				// 				System.out.println( "Move to : " + ( u.getX() - 1 ) + " " + u.getY() );
+				// 			}
+				// 			else
+				// 			{
+				// 				// move right
+				// 				System.out.println( "Move to : " + ( u.getX() + 1 ) + " " + u.getY() );
+				// 			}
+				// 		}
+				// 		else
+				// 		{
+				// 			if( danger_down <= danger_right )
+				// 			{
+				// 				// move down
+				// 				System.out.println( "Move to : " + u.getX() + " " + ( u.getY() + 1 ) );
+				// 			}
+				// 			else
+				// 			{
+				// 				// move right
+				// 				System.out.println( "Move to : " + ( u.getX() + 1 ) + " " + u.getY() ); 
+				// 			}
+				// 		}
+				// 	}
 
-					try
-					{
-						System.in.read();
-					}
-					catch( Exception e )
-					{
-						//TODO: handle exception
-					}
-				}
+				// 	try
+				// 	{
+				// 		System.in.read();
+				// 	}
+				// 	catch( Exception e )
+				// 	{
+				// 		//TODO: handle exception
+				// 	}
+				// }
 			}
 		} //if( u.getType() == rangedType && closestDistance <= 2 )
 		else
@@ -643,6 +647,8 @@ public class POAdaptive extends AbstractionLayerAI
 					Unit enemy = pgs.getUnitAt( x, y );
 					if( enemy != null )
 						attack( u, enemy );
+					else
+						attack( u, closestEnemy );
 				}
 				else
 					attack( u, closestEnemy );
@@ -701,9 +707,25 @@ public class POAdaptive extends AbstractionLayerAI
 					}
 
 				if( heat_point > -10000.0 )
+				{
 					move( u, min_x, min_y );
+					if( DEBUG )
+						System.out.println("Unit " + u + " moves to (" + min_x + ", " + min_y + ")");
+				}
 				else
-					move( u, (int)(pgs.getWidth() * Math.random() ), (int)(pgs.getHeight() * Math.random() ) );
+				{
+					int rand_x = (int)(pgs.getWidth() * Math.random() );
+					int rand_y = (int)(pgs.getHeight() * Math.random() );
+					move( u, rand_x, rand_y );
+					if( DEBUG )
+						System.out.println("Unit " + u + " moves RANDOM to (" + rand_x + ", " + rand_y + ")");
+				}
+
+				if( DEBUG )
+				{
+					UnitAction currentAction = gs.getUnitAction( u );
+					System.out.println("Action: " + currentAction );
+				}
 			}
 	}
 
