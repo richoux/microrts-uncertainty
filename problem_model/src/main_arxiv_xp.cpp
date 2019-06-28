@@ -1,3 +1,12 @@
+/*
+ * THIS FILE IS NOT USED, NEITHER FOR THE BOT
+ * NOR FOR THE ARXIV/CEC PAPER (ALTHOUGH ITS NAME)
+ *
+ * So why I keep it?
+ *
+ */
+
+
 #include <unistd.h>
 #include <ios>
 #include <iostream>

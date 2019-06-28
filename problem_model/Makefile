@@ -60,4 +60,4 @@ $(OBJDIR)/%.o: %.cpp
 .PHONY: clean 
 
 clean:
-	rm -fr core *~ $(EXEC) $(OBJECTS) $(SOURCESTILDE)make
+	rm -fr core *~ $(EXEC) $(OBJECTS) $(SOURCESTILDE)
