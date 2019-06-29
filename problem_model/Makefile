@@ -1,4 +1,5 @@
-EXEC=solver_cpp
+EXEC_PESSIMISTIC=solver_cpp_pessimistic
+EXEC_OPTIMISTIC=solver_cpp_optimistic
 
 # Compiler flags
 CXXFIRSTFLAGS= -Ofast -DBENCH -W -Wall -Wextra -pedantic -Wno-sign-compare -Wno-unused-parameter
@@ -20,16 +21,16 @@ endif
 # Directories
 SRCDIR=src
 OBJDIR=obj
+#BINDIR=../src/ai/poadaptive
 BINDIR=.
-RTSDIR=../src/ai/poadaptive
 INCLUDEDIR=../include
 
 # Linker flags
 LDFLAGS= -pthread -lghost
 
 # Files
-SOURCES=$(foreach sdir, $(SRCDIR), $(wildcard $(sdir)/*.cpp))
-OBJECTS=$(patsubst %.cpp, $(OBJDIR)/%.o, $(notdir $(SOURCES)))
+#SOURCES=$(foreach sdir, $(SRCDIR), $(wildcard $(sdir)/*.cpp))
+#OBJECTS=$(patsubst %.cpp, $(OBJDIR)/%.o, $(notdir $(SOURCES)))
 
 # For rm
 SOURCESTILDE=$(foreach sdir, $(SRCDIR), $(wildcard $(sdir)/*.cpp~))
@@ -42,17 +43,24 @@ vpath %.cpp $(SRCDIR)
 # $< is the first item in the dependencies list
 
 # Rules
-all: $(BINDIR)/$(EXEC)
-all_rts: $(RTSDIR)/$(EXEC)
+all: $(BINDIR)/$(EXEC_PESSIMISTIC) $(BINDIR)/$(EXEC_OPTIMISTIC) 
 
 debug: CXXFLAGS= $(CXXFLAGSDEBUG)
 debug: $(BINDIR)/$(EXEC)
 
-$(BINDIR)/$(EXEC): $(OBJECTS)
-	$(CXX) -o $@ $^ $(LDFLAGS)
+$(BINDIR)/$(EXEC_PESSIMISTIC): $(OBJDIR)/constraints_rts.o $(OBJDIR)/obj_rts.o $(OBJDIR)/main_pessimistic.o
+	$(CXX) -o  $@ $^ $(LDFLAGS)
+	ln -s ../../../problem_model/$(EXEC_PESSIMISTIC) ../src/ai/poadaptive/
 
-$(RTSDIR)/$(EXEC): $(OBJECTS)
+$(BINDIR)/$(EXEC_OPTIMISTIC): $(OBJDIR)/constraints_rts.o $(OBJDIR)/obj_rts.o $(OBJDIR)/main_optimistic.o
 	$(CXX) -o $@ $^ $(LDFLAGS)
+	ln -s ../../../problem_model/$(EXEC_OPTIMISTIC) ../src/ai/poadaptive/
+
+$(OBJDIR)/main_pessimistic.o: $(SRCDIR)/main.cpp
+	$(CXX) $(CXXFLAGS) -c -DPESSIMISTIC -I$(INCLUDEDIR) $< -o $@
+
+$(OBJDIR)/main_optimistic.o: $(SRCDIR)/main.cpp
+	$(CXX) $(CXXFLAGS) -c -DOPTIMISTIC -I$(INCLUDEDIR) $< -o $@
 
 $(OBJDIR)/%.o: %.cpp
 	$(CXX) $(CXXFLAGS) -c -I$(INCLUDEDIR) $< -o $@
@@ -60,4 +68,4 @@ $(OBJDIR)/%.o: %.cpp
 .PHONY: clean 
 
 clean:
-	rm -fr core *~ $(EXEC) $(OBJECTS) $(SOURCESTILDE)
+	rm -fr core *~ $(EXEC_PESSIMISTIC) $(EXEC_OPTIMISTIC) $(OBJDIR)/*.o $(SOURCESTILDE) 

@@ -51,7 +51,7 @@ public class POAdaptive extends AbstractionLayerAI
 	protected UnitTypeTable utt;
 
 	public static boolean INFO = false;
-	public static boolean DEBUG = true;
+	public static boolean DEBUG = false;
 
 	public static int NB_SAMPLE = 50;
 
@@ -62,6 +62,7 @@ public class POAdaptive extends AbstractionLayerAI
 	public static float RANGED_PER_LIGHT = 1.5f;
 	public static float LIGHT_PER_HEAVY = 1.5f;
 
+	String solver_path;
 	String solver_name;
 	double[][] heat_map;
 
@@ -97,10 +98,10 @@ public class POAdaptive extends AbstractionLayerAI
 	                   PathFinding a_pf,
 	                   String distribution_file_b,
 	                   String distribution_file_wb,
-	                   String solver,
+	                   String solver_path,
 	                   double[][] heat_map )
 	{
-		this( a_utt, new AStarPathFinding(), distribution_file_b, distribution_file_wb, solver );
+		this( a_utt, new AStarPathFinding(), distribution_file_b, distribution_file_wb, solver_path );
 		if( heat_map != null )
 		{
 			this.heat_map = new double[ heat_map.length ][];
@@ -112,20 +113,20 @@ public class POAdaptive extends AbstractionLayerAI
 	public POAdaptive( UnitTypeTable a_utt,
 	                   String distribution_file_b,
 	                   String distribution_file_wb,
-	                   String solver )
+	                   String solver_path )
 	{
-		this( a_utt, new AStarPathFinding(), distribution_file_b, distribution_file_wb, solver );
+		this( a_utt, new AStarPathFinding(), distribution_file_b, distribution_file_wb, solver_path );
 	}
 
 	public POAdaptive( UnitTypeTable a_utt,
 	                   PathFinding a_pf,
 	                   String distribution_file_b,
 	                   String distribution_file_wb,
-	                   String solver )
+	                   String solver_path )
 	{
 		super( a_pf );
 		reset( a_utt );
-		solver_name = solver;
+		this.solver_path = solver_path;
 		this.nbSamples = NB_SAMPLE;
 		this.distribution_file_b = distribution_file_b;
 		this.distribution_file_woutb = distribution_file_wb;
@@ -236,7 +237,7 @@ public class POAdaptive extends AbstractionLayerAI
 
 	public AI clone()
 	{
-		return new POAdaptive( utt, pf, distribution_file_b, distribution_file_woutb, solver_name, heat_map );
+		return new POAdaptive( utt, pf, distribution_file_b, distribution_file_woutb, solver_path, heat_map );
 	}
 
 	public void reset()
@@ -779,14 +780,10 @@ public class POAdaptive extends AbstractionLayerAI
 
 	private int get_sample( List<Float> distribution, int bypass )
 	{
-		int r = 0;
 		double rnd = Math.random();
 		float sum = 0.f;
 		boolean start = false;
 		int i = 0;
-		// if(bypass > 0){
-		//		 System.out.println(rnd);
-		// }
 
 		while( i < bypass )
 		{
@@ -796,20 +793,14 @@ public class POAdaptive extends AbstractionLayerAI
 
 		rnd *= ( 1.0 - sum );
 		sum =0.f;
-		// if(bypass > 0){
-		//		 System.out.println(" => "+rnd);
-		// }
 
-		while( sum < rnd - 0.00001 )
+		while( sum < rnd )
 		{
 			sum += distribution.get( i );
-			if( sum >= rnd )
-				r = i;
-
 			++i;
 		}
 
-		return r;
+		return i - 1;
 	}
 
 	public void barracksBehavior( Unit u, Player p, PhysicalGameState pgs, int time )
@@ -832,7 +823,7 @@ public class POAdaptive extends AbstractionLayerAI
 		if( p.getResources() >= 2 )
 		{
 			if( INFO )
-				System.out.println( "Ressources : " + p.getResources() );
+				System.out.println( "Resources: " + p.getResources() );
 
 			// counts units of each player per type
 			for( Unit u2 : pgs.getUnits() )
@@ -871,7 +862,7 @@ public class POAdaptive extends AbstractionLayerAI
 				barracks = true;
 
 			if( INFO )
-				System.out.println( "Barrack : " + barracks );
+				System.out.println( "Barrack: " + barracks );
 
 			// Draws
 			ArrayList<Integer[]> samples = new ArrayList<Integer[]>();
@@ -943,6 +934,12 @@ public class POAdaptive extends AbstractionLayerAI
 			{
 				// System.out.println("Hello Java");
 				Runtime r = Runtime.getRuntime();
+				
+				if( pgs.getWidth() >= 20 )
+					solver_name = solver_path + "solver_cpp_optimistic";
+				else
+					solver_name = solver_path + "solver_cpp_pessimistic";
+					
 				Process process = r.exec( String.format( "%s %s %d", solver_name, "src/ai/poadaptive/data_solver", nbSamples ) );
 				process.waitFor();
 
@@ -955,6 +952,7 @@ public class POAdaptive extends AbstractionLayerAI
 				// }
 				if( INFO )
 				{
+					System.out.println( "Trace after calling the solver:" );
 					System.out.println( b.readLine() );
 					System.out.println( b.readLine() );
 					System.out.println( b.readLine() );

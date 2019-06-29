@@ -103,8 +103,8 @@ public class CompareAllAIsPartiallyObservable {
 
     GameState gs = new GameState(pgs, utt);
     
-    bots.add(new POAdaptive(utt, "src/ai/poadaptive/distributions.xml", "src/ai/poadaptive/distribution_woutb.xml", "src/ai/poadaptive/solver_cpp"));
-    //bots.add(new RandomPOAdaptive(utt, "src/ai/poadaptive/distributions.xml", "src/ai/poadaptive/distribution_woutb.xml", "src/ai/poadaptive/solver_cpp"));
+    bots.add(new POAdaptive(utt, "src/ai/poadaptive/distributions.xml", "src/ai/poadaptive/distribution_woutb.xml", "src/ai/poadaptive/"));
+    //bots.add(new RandomPOAdaptive(utt, "src/ai/poadaptive/distributions.xml", "src/ai/poadaptive/distribution_woutb.xml", "src/ai/poadaptive/"));
         
     // bots.add(new StrategyTactics(utt));
     // bots.add(new RandomAI(utt));
