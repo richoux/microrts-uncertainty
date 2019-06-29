@@ -11,8 +11,8 @@ import ai.core.PseudoContinuingAI;
 import ai.portfolio.PortfolioAI;
 import ai.*;
 import ai.mcts.believestatemcts.BS3_NaiveMCTS;
-import ai.poadaptive.POAdaptiverush;
-import ai.poadaptive.RandomPOAdaptiverush;
+import ai.poadaptive.POAdaptive;
+import ai.poadaptive.RandomPOAdaptive;
 import ai.abstraction.partialobservability.POLightRush;
 import ai.abstraction.partialobservability.PORangedRush;
 import ai.abstraction.partialobservability.POWorkerRush;
@@ -103,8 +103,8 @@ public class CompareAllAIsPartiallyObservable {
 
     GameState gs = new GameState(pgs, utt);
     
-    bots.add(new POAdaptiverush(utt, "src/ai/poadaptive/distributions.xml", "src/ai/poadaptive/distribution_woutb.xml", "src/ai/poadaptive/solver_cpp"));
-    //bots.add(new RandomPOAdaptiverush(utt, "src/ai/poadaptive/distributions.xml", "src/ai/poadaptive/distribution_woutb.xml", "src/ai/poadaptive/solver_cpp"));
+    bots.add(new POAdaptive(utt, "src/ai/poadaptive/distributions.xml", "src/ai/poadaptive/distribution_woutb.xml", "src/ai/poadaptive/"));
+    //bots.add(new RandomPOAdaptive(utt, "src/ai/poadaptive/distributions.xml", "src/ai/poadaptive/distribution_woutb.xml", "src/ai/poadaptive/"));
         
     // bots.add(new StrategyTactics(utt));
     // bots.add(new RandomAI(utt));
@@ -197,7 +197,7 @@ public class CompareAllAIsPartiallyObservable {
 
     // bots.clear();
     
-    // bots.add(new RandomPOAdaptiverush(utt, "src/ai/poadaptive/distributions.xml", "src/ai/poadaptive/distribution_woutb.xml", "src/ai/poadaptive/solver_cpp"));
+    // bots.add(new RandomPOAdaptive(utt, "src/ai/poadaptive/distributions.xml", "src/ai/poadaptive/distribution_woutb.xml", "src/ai/poadaptive/solver_cpp"));
 
     // bots.add(new POLightRush(utt));
     // bots.add(new PORangedRush(utt));

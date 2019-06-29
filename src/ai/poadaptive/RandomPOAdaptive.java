@@ -43,22 +43,22 @@ import java.io.PrintWriter;
  *
  * @author santi
  */
-public class RandomPOAdaptiverush extends POAdaptiverush {
+public class RandomPOAdaptive extends POAdaptive {
 
     boolean heavy=false;
     
-    public RandomPOAdaptiverush(UnitTypeTable a_utt, String distribution_file_b, String distribution_file_wb, String solver) {
+    public RandomPOAdaptive(UnitTypeTable a_utt, String distribution_file_b, String distribution_file_wb, String solver) {
         this(a_utt, new AStarPathFinding(), distribution_file_b, distribution_file_wb, solver);
     }
 
-    public RandomPOAdaptiverush(UnitTypeTable a_utt, PathFinding a_pf, String distribution_file_b, String distribution_file_wb, String solver) {
+    public RandomPOAdaptive(UnitTypeTable a_utt, PathFinding a_pf, String distribution_file_b, String distribution_file_wb, String solver) {
         super(a_utt, a_pf, distribution_file_b, distribution_file_wb, solver);
         
     }
 
     @Override
     public AI clone() {
-        return new RandomPOAdaptiverush(utt, pf, distribution_file_b, distribution_file_woutb, solver_name);
+        return new RandomPOAdaptive(utt, pf, distribution_file_b, distribution_file_woutb, solver_name);
     }
 
     @Override
