@@ -36,27 +36,32 @@ public class LispParser {
         List<LispElement> stack = new LinkedList<>();
         LispTokenizer lt = new LispTokenizer(br);
         String token = lt.nextToken();
-        while(token!=null) {
-            if (DEBUG>=1) System.out.println("next token: " + token);
-            
-            if (token.equals("(")) {
-                stack.add(0,new LispElement());
-            } else if (token.equals(")")) {
-                LispElement e = stack.remove(0);
-                if (stack.isEmpty()) {
-                    l.add(e);
-                } else {
-                    stack.get(0).children.add(e);
-                }
-            } else {
-                if (stack.isEmpty()) {
-                    l.add(new LispElement(token));
-                } else {
-                    stack.get(0).children.add(new LispElement(token));
-                }
-            }
-            
-            token = lt.nextToken();
+        while(token!=null)
+	{
+	  if (DEBUG>=1) System.out.println("next token: " + token);
+          
+	  if (token.equals("("))
+	    stack.add(0,new LispElement());
+	  else
+	  {
+	    if (token.equals(")"))
+	    {
+	      LispElement e = stack.remove(0);
+	      if (stack.isEmpty())
+		l.add(e);
+	      else
+		stack.get(0).children.add(e);
+	    }
+	    else
+	    {
+	      if (stack.isEmpty())
+		l.add(new LispElement(token));
+	      else
+		stack.get(0).children.add(new LispElement(token));
+	    }
+	  }
+	  
+	  token = lt.nextToken();
         }
         
         return l;

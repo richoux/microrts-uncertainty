@@ -72,73 +72,96 @@ public class AHTNAI extends AIWithComputationBudget {
     }
 
     
-    public PlayerAction getAction(int player, GameState gs) throws Exception {
-        Term goal1 = Term.fromString("(destroy-player "+player+" "+(1-player)+")");
-        Term goal2 = Term.fromString("(destroy-player "+(1-player)+" "+player+")");
-        if (gs.canExecuteAnyAction(player)) {
-            Pair<MethodDecomposition,MethodDecomposition> plan = AdversarialBoundedDepthPlannerAlphaBeta.getBestPlanIterativeDeepening(goal1, goal2, player, TIME_BUDGET, ITERATIONS_BUDGET, PLAYOUT_LOOKAHEAD, gs, dd, ef, playoutAI);
-            PlayerAction pa = new PlayerAction();
-            if (plan!=null) {
-                MethodDecomposition toExecute = plan.m_a;
-                List<Pair<Integer,List<Term>>> l = (toExecute!=null ? toExecute.convertToOperatorList():new LinkedList<>());
+  public PlayerAction getAction(int player, GameState gs) throws Exception {
+    Term goal1 = Term.fromString("(destroy-player "+player+" "+(1-player)+")");
+    Term goal2 = Term.fromString("(destroy-player "+(1-player)+" "+player+")");
+    if (gs.canExecuteAnyAction(player))
+    {
+      Pair<MethodDecomposition,MethodDecomposition> plan =
+	AdversarialBoundedDepthPlannerAlphaBeta.getBestPlanIterativeDeepening(goal1,
+									      goal2,
+									      player,
+									      TIME_BUDGET,
+									      ITERATIONS_BUDGET,
+									      PLAYOUT_LOOKAHEAD,
+									      gs,
+									      dd,
+									      ef,
+									      playoutAI);
 
-                if (DEBUG>=1) {
-                    List<Pair<Integer,List<Term>>> l2 = (plan.m_b!=null ? plan.m_b.convertToOperatorList():new LinkedList<>());        
-                    System.out.println("---- ---- ---- ----");
-                    System.out.println(gs);
-                    System.out.println("Max plan:");
-                    for(Pair<Integer, List<Term>> a:l) System.out.println("  " + a.m_a + ": " + a.m_b);
-                    System.out.println("Min plan:");
-                    for(Pair<Integer, List<Term>> a:l2) System.out.println("  " + a.m_a + ": " + a.m_b);
-                }
-                if (DEBUG>=2) {
-                    System.out.println("Detailed Max plan:");
-                    plan.m_a.printDetailed();                    
-                }
+      PlayerAction pa = new PlayerAction();
+      if (plan!=null)
+      {
+	MethodDecomposition toExecute = plan.m_a;
+	List<Pair<Integer,List<Term>>> l = toExecute!=null ? toExecute.convertToOperatorList() : new LinkedList<>();
+	if (DEBUG>=1)
+	{
+	  List<Pair<Integer,List<Term>>> l2 =
+	    plan.m_b!=null ? plan.m_b.convertToOperatorList() : new LinkedList<>();        
+	  System.out.println("---- ---- ---- ----");
+	  System.out.println(gs);
+	  System.out.println("Max plan:");
+	  for( Pair<Integer, List<Term>> a : l )
+	    System.out.println("  " + a.m_a + ": " + a.m_b);
+	  System.out.println("Min plan:");
+	  for( Pair<Integer, List<Term>> a : l2 )
+	    System.out.println("  " + a.m_a + ": " + a.m_b);
+	}
+	if (DEBUG>=2)
+	{
+	  System.out.println("Detailed Max plan:");
+	  plan.m_a.printDetailed();                    
+	}
                 
-                actionsBeingExecuted.clear();
-                while(!l.isEmpty()) {
-                    Pair<Integer,List<Term>> tmp = l.remove(0);
-                    if (tmp.m_a!=gs.getTime()) break;
-                    List<Term> actions = tmp.m_b;
-                    for(Term action:actions) {
-                        MethodDecomposition md = new MethodDecomposition(action);
-                        actionsBeingExecuted.add(md);
-                    }
-                }
-            }
+	actionsBeingExecuted.clear();
+	while( !l.isEmpty() )
+	{
+	  Pair<Integer,List<Term>> tmp = l.remove(0);
+	  if( tmp.m_a != gs.getTime() )
+	    break;
+	  List<Term> actions = tmp.m_b;
+	  for(Term action:actions)
+	  {
+	    MethodDecomposition md = new MethodDecomposition(action);
+	    actionsBeingExecuted.add(md);
+	  }
+	}
+      }
 
-            if (DEBUG>=1) 
-            {
-                System.out.println("Actions being executed:");
-                for(MethodDecomposition md:actionsBeingExecuted) {
-                    System.out.println("    " + md.getTerm());
-                }
-            }
+      if( DEBUG >= 1 ) 
+      {
+	System.out.println("Actions being executed:");
+	for(MethodDecomposition md:actionsBeingExecuted)
+	  System.out.println("    " + md.getTerm());
+      }
 
-            List<MethodDecomposition> toDelete = new LinkedList<>();
-            for(MethodDecomposition md:actionsBeingExecuted) {
-                if (PredefinedOperators.execute(md, gs, pa)) toDelete.add(md);
+      List<MethodDecomposition> toDelete = new LinkedList<>();
+      for(MethodDecomposition md:actionsBeingExecuted)
+      {
+	if( PredefinedOperators.execute(md, gs, pa) )
+	  toDelete.add(md);
                 
-                for(Pair<Unit,UnitAction> ua:pa.getActions()) {
-                    if (gs.getUnit(ua.m_a.getID())==null) {
-                        pa.removeUnitAction(ua.m_a, ua.m_b);
-                    }
-                }
-            }
-            actionsBeingExecuted.removeAll(toDelete);
+	for( Pair<Unit,UnitAction> ua:pa.getActions() )
+	{
+	  if( gs.getUnit( ua.m_a.getID() ) == null ) 
+	    pa.removeUnitAction( ua.m_a, ua.m_b );
+	}
+      }
 
-            if (DEBUG>=1) {
-                System.out.println("Result in the following unit actions:");
-                System.out.println("    " + pa);
-            }
+      actionsBeingExecuted.removeAll(toDelete);
+	    
+      if( DEBUG >= 1 )
+      {
+	System.out.println("Result in the following unit actions:");
+	System.out.println("    " + pa);
+      }
             
-            pa.fillWithNones(gs, player, 10);
-            return pa;
-        } else {
-            return new PlayerAction();        
-        }
+      pa.fillWithNones(gs, player, 10);
+      return pa;
     }
+    else 
+      return new PlayerAction();        
+  }
 
     
     @Override
